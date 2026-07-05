@@ -1,0 +1,244 @@
+Script started on 2026-07-05 17:45:37+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="156" LINES="44"]
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ pwd
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ [K]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ [K]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ [7m/home/prashanth[27m[1P/home/prashant[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls[K[Kls
+[?2004l[0m[01;34mDocuments[0m  [01;34mdownloads[0m                    [01;34mlinux-playground[0m  [01;34mpictures[0m
+[01;34mdocuments[0m  lab-02-terminal-session.txt  [01;34mmusic[0m
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ lsm-la~~[K[K[K[K[K[K -la
+[?2004ltotal 60
+drwxr-x--- 10 prashanth prashanth 4096 Jul  5 17:50 [0m[01;34m.[0m
+drwxr-xr-x  6 root      root      4096 Jul  4 11:09 [01;34m..[0m
+-rw-------  1 prashanth prashanth  516 Jul  4 11:45 .bash_history
+-rw-r--r--  1 prashanth prashanth  220 Jul  4 10:52 .bash_logout
+-rw-r--r--  1 prashanth prashanth 3771 Jul  4 10:52 .bashrc
+drwxr-x---  4 prashanth prashanth 4096 Jul  4 10:52 [01;34m.cache[0m
+drwxr-x---  3 prashanth prashanth 4096 Jul  4 10:52 [01;34m.config[0m
+-rw-------  1 prashanth prashanth   20 Jul  4 11:37 .lesshst
+-rw-rw-r--  1 prashanth prashanth    0 Jul  5 15:21 .motd_shown
+-rw-r--r--  1 prashanth prashanth  807 Jul  4 10:52 .profile
+drwxr-xr-x  2 prashanth prashanth 4096 Jul  5 17:48 [01;34mDocuments[0m
+drwxr-xr-x  5 prashanth prashanth 4096 Jul  4 11:14 [01;34mdocuments[0m
+drwxr-xr-x  5 prashanth prashanth 4096 Jul  4 11:14 [01;34mdownloads[0m
+-rw-r--r--  1 prashanth prashanth    0 Jul  5 17:45 lab-02-terminal-session.txt[K
+drwxr-xr-x 15 prashanth prashanth 4096 Jul  5 17:49 [01;34mlinux-playground[0m
+drwxr-xr-x  5 prashanth prashanth 4096 Jul  5 17:50 [01;34mmusic[0m
+drwxr-xr-x  5 prashanth prashanth 4096 Jul  5 17:50 [01;34mpictures[0m
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd /
+[?2004l[?2004h]0;prashanth@linux-labs: /[01;32mprashanth@linux-labs[00m:[01;34m/[00m$ pwd
+[?2004l/
+[?2004h]0;prashanth@linux-labs: /[01;32mprashanth@linux-labs[00m:[01;34m/[00m$ ls
+[?2004l[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib[0m    [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msnap[0m  [01;34msys[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34metc[0m  [01;32minit[0m  [01;36mlib64[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m
+[?2004h]0;prashanth@linux-labs: /[01;32mprashanth@linux-labs[00m:[01;34m/[00m$ /root
+[?2004lbash: /root: Is a directory
+[?2004h]0;prashanth@linux-labs: /[01;32mprashanth@linux-labs[00m:[01;34m/[00m$ cd /[Kroot
+[?2004lbash: cd: root: Permission denied
+[?2004h]0;prashanth@linux-labs: /[01;32mprashanth@linux-labs[00m:[01;34m/[00m$ cd /etc
+[?2004l[?2004h]0;prashanth@linux-labs: /etc[01;32mprashanth@linux-labs[00m:[01;34m/etc[00m$ pwd
+[?2004l/etc
+[?2004h]0;prashanth@linux-labs: /etc[01;32mprashanth@linux-labs[00m:[01;34m/etc[00m$ cd /var/log
+[?2004l[?2004h]0;prashanth@linux-labs: /var/log[01;32mprashanth@linux-labs[00m:[01;34m/var/log[00m$ pwd
+[?2004l/var/log
+[?2004h]0;prashanth@linux-labs: /var/log[01;32mprashanth@linux-labs[00m:[01;34m/var/log[00m$ ls
+[?2004l[0m[01;36mREADME[0m            [01;34mchrony[0m        [01;31mdmesg.3.gz[0m      [01;34mlandscape[0m
+alternatives.log  [01;34mdist-upgrade[0m  [01;31mdmesg.4.gz[0m      lastlog
+[01;34mapt[0m               dmesg         dpkg.log        [01;34mprivate[0m
+auth.log          dmesg.0       fontconfig.log  syslog
+bootstrap.log     [01;31mdmesg.1.gz[0m    [01;34mjournal[0m         [01;34munattended-upgrades[0m
+btmp              [01;31mdmesg.2.gz[0m    kern.log        wtmp
+[?2004h]0;prashanth@linux-labs: /var/log[01;32mprashanth@linux-labs[00m:[01;34m/var/log[00m$ cd ~
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ pwd
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd !~[K[K`[K~
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ pwd
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd documents
+[?2004l[?2004h]0;prashanth@linux-labs: ~/documents[01;32mprashanth@linux-labs[00m:[01;34m~/documents[00m$ pwd
+[?2004l/home/prashanth/documents
+[?2004h]0;prashanth@linux-labs: ~/documents[01;32mprashanth@linux-labs[00m:[01;34m~/documents[00m$ cd ..
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ pwd
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ pwdcd ..[2Ppwd[K[K[Kcd do[Ko[K[Kdocuments/[K
+[?2004l[?2004h]0;prashanth@linux-labs: ~/documents[01;32mprashanth@linux-labs[00m:[01;34m~/documents[00m$ cd -[K[K[K[Kpwd
+[?2004l/home/prashanth/documents
+[?2004h]0;prashanth@linux-labs: ~/documents[01;32mprashanth@linux-labs[00m:[01;34m~/documents[00m$ cd -
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ pwd
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd -
+[?2004l/home/prashanth/documents
+[?2004h]0;prashanth@linux-labs: ~/documents[01;32mprashanth@linux-labs[00m:[01;34m~/documents[00m$ pwd
+[?2004l/home/prashanth/documents
+[?2004h]0;prashanth@linux-labs: ~/documents[01;32mprashanth@linux-labs[00m:[01;34m~/documents[00m$ cd /etc
+[?2004l[?2004h]0;prashanth@linux-labs: /etc[01;32mprashanth@linux-labs[00m:[01;34m/etc[00m$ pwd
+[?2004l/etc
+[?2004h]0;prashanth@linux-labs: /etc[01;32mprashanth@linux-labs[00m:[01;34m/etc[00m$ cd /var/log
+[?2004l[?2004h]0;prashanth@linux-labs: /var/log[01;32mprashanth@linux-labs[00m:[01;34m/var/log[00m$ pwd
+[?2004l/var/log
+[?2004h]0;prashanth@linux-labs: /var/log[01;32mprashanth@linux-labs[00m:[01;34m/var/log[00m$ cd -
+[?2004l/etc
+[?2004h]0;prashanth@linux-labs: /etc[01;32mprashanth@linux-labs[00m:[01;34m/etc[00m$ pwd
+[?2004l/etc
+[?2004h]0;prashanth@linux-labs: /etc[01;32mprashanth@linux-labs[00m:[01;34m/etc[00m$ cd-
+[?2004lCommand 'cd-' not found, did you mean:
+  command 'cdv' from deb erlang-observer (1:27.3.4.6+dfsg-1)
+  command 'cdi' from deb cdo (2.5.4-1)
+  command 'cdb' from deb tinycdb (0.81-2build1)
+  command 'cdw' from deb cdw (0.8.1-3build4)
+  command 'cdp' from deb irpas (0.10-10build1)
+  command 'cdo' from deb cdo (2.5.4-1)
+  command 'cd5' from deb cd5 (0.1-4build1)
+  command 'cde' from deb cde (0.1+git9-g551e54d-3)
+Try: sudo apt install <deb name>
+[?2004h]0;prashanth@linux-labs: /etc[01;32mprashanth@linux-labs[00m:[01;34m/etc[00m$ cd-[K -
+[?2004l/var/log
+[?2004h]0;prashanth@linux-labs: /var/log[01;32mprashanth@linux-labs[00m:[01;34m/var/log[00m$ cd ~
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ pwd
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd /
+[?2004l[?2004h]0;prashanth@linux-labs: /[01;32mprashanth@linux-labs[00m:[01;34m/[00m$ pwd
+[?2004l/
+[?2004h]0;prashanth@linux-labs: /[01;32mprashanth@linux-labs[00m:[01;34m/[00m$ ls -lah
+[?2004ltotal 2.8M
+drwxr-xr-x  19 root root 4.0K Jul  5 17:43 [0m[01;34m.[0m
+drwxr-xr-x  19 root root 4.0K Jul  5 17:43 [01;34m..[0m
+lrwxrwxrwx   1 root root    7 Apr 20 14:16 [01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x   2 root root 4.0K Apr 20 14:16 [01;34mboot[0m
+drwxr-xr-x  15 root root 3.8K Jul  5 17:43 [01;34mdev[0m
+drwxr-xr-x  89 root root 4.0K Jul  5 17:43 [01;34metc[0m
+drwxr-xr-x   6 root root 4.0K Jul  4 11:09 [01;34mhome[0m
+-rwxr-xr-x   1 root root 2.8M Jun 26 02:57 [01;32minit[0m
+lrwxrwxrwx   1 root root    7 Apr 20 14:16 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root    9 Apr 20 14:16 [01;36mlib64[0m -> [01;34musr/lib64[0m
+drwx------   2 root root  16K Jul  4 10:51 [01;34mlost+found[0m
+drwxr-xr-x   2 root root 4.0K Apr 20 23:35 [01;34mmedia[0m
+drwxr-xr-x   6 root root 4.0K Jul  4 10:52 [01;34mmnt[0m
+drwxr-xr-x   2 root root 4.0K Apr 20 23:35 [01;34mopt[0m
+dr-xr-xr-x 226 root root    0 Jul  5 17:43 [01;34mproc[0m
+drwx------   4 root root 4.0K Jul  4 11:41 [01;34mroot[0m
+drwxr-xr-x  22 root root  580 Jul  5 17:43 [01;34mrun[0m
+lrwxrwxrwx   1 root root    8 Apr 20 14:16 [01;36msbin[0m -> [01;34musr/sbin[0m
+drwxr-xr-x   2 root root 4.0K Jul  4 10:52 [01;34msnap[0m
+drwxr-xr-x   2 root root 4.0K Apr 20 23:35 [01;34msrv[0m
+dr-xr-xr-x  13 root root    0 Jul  5 17:43 [01;34msys[0m
+drwxrwxrwt   7 root root  140 Jul  5 18:14 [30;42mtmp[0m
+drwxr-xr-x  12 root root 4.0K Apr 20 23:35 [01;34musr[0m
+drwxr-xr-x  13 root root 4.0K Jul  4 10:52 [01;34mvar[0m
+[?2004h]0;prashanth@linux-labs: /[01;32mprashanth@linux-labs[00m:[01;34m/[00m$ cd etc
+[?2004l[?2004h]0;prashanth@linux-labs: /etc[01;32mprashanth@linux-labs[00m:[01;34m/etc[00m$ pwd
+[?2004l/etc
+[?2004h]0;prashanth@linux-labs: /etc[01;32mprashanth@linux-labs[00m:[01;34m/etc[00m$ /[K../var/log
+[?2004lbash: ../var/log: Is a directory
+[?2004h]0;prashanth@linux-labs: /etc[01;32mprashanth@linux-labs[00m:[01;34m/etc[00m$ ../var/log[1@c[1@g[1@ [1P[1P[1@d[1@ 
+[?2004l[?2004h]0;prashanth@linux-labs: /var/log[01;32mprashanth@linux-labs[00m:[01;34m/var/log[00m$ pwd
+[?2004l/var/log
+[?2004h]0;prashanth@linux-labs: /var/log[01;32mprashanth@linux-labs[00m:[01;34m/var/log[00m$ cd ~
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ pwd
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd -
+[?2004l/var/log
+[?2004h]0;prashanth@linux-labs: /var/log[01;32mprashanth@linux-labs[00m:[01;34m/var/log[00m$ pwd
+[?2004l/var/log
+[?2004h]0;prashanth@linux-labs: /var/log[01;32mprashanth@linux-labs[00m:[01;34m/var/log[00m$ tree
+[?2004l[01;34m.[0m
+├── [01;36mREADME[0m -> ../../usr/share/doc/systemd/README.logs
+├── alternatives.log
+├── [01;34mapt[0m
+│   ├── [01;31meipp.log.xz[0m
+│   ├── history.log
+│   └── term.log
+├── auth.log
+├── bootstrap.log
+├── btmp
+├── [01;34mchrony[0m  [error opening dir]
+├── [01;34mdist-upgrade[0m
+├── dmesg
+├── dmesg.0
+├── [01;31mdmesg.1.gz[0m
+├── [01;31mdmesg.2.gz[0m
+├── [01;31mdmesg.3.gz[0m
+├── [01;31mdmesg.4.gz[0m
+├── dpkg.log
+├── fontconfig.log
+├── [01;34mjournal[0m
+│   └── [01;34m74c828d7137c4037871baf30455f7d5f[0m
+│       ├── system.journal
+│       ├── [00;90msystem@000655c2f237b175-533931692a2102a3.journal~[0m
+│       ├── [00;90msystem@000655da18dbf4fa-5580b8c4323e5d55.journal~[0m
+│       ├── [00;90msystem@000655dc165bfa96-d82c093ef322bfab.journal~[0m
+│       ├── system@08535643a7af4defb9c3eeb38927ef4d-0000000000000001-000655c238a8395a.journal
+│       ├── user-1000.journal
+│       ├── [00;90muser-1000@000655c2f27c2fd4-bc438053db0c47b0.journal~[0m
+│       ├── [00;90muser-1000@000655da19595dec-f78fb2785b74919b.journal~[0m
+│       ├── [00;90muser-1000@000655dc16e70177-09c33e44a7d41a59.journal~[0m
+│       └── user-1000@08535643a7af4defb9c3eeb38927ef4d-00000000000002a5-000655c23a6efaa2.journal
+├── kern.log
+├── [01;34mlandscape[0m
+│   ├── landscape-config.log
+│   └── sysinfo.log
+├── lastlog
+├── [01;34mprivate[0m  [error opening dir]
+├── syslog
+├── [01;34munattended-upgrades[0m
+│   ├── unattended-upgrades-dpkg.log
+│   ├── unattended-upgrades-shutdown.log
+│   └── unattended-upgrades.log
+└── wtmp
+
+9 directories, 35 files
+[?2004h]0;prashanth@linux-labs: /var/log[01;32mprashanth@linux-labs[00m:[01;34m/var/log[00m$ pwd
+[?2004l/var/log
+[?2004h]0;prashanth@linux-labs: /var/log[01;32mprashanth@linux-labs[00m:[01;34m/var/log[00m$ cd /
+[?2004l[?2004h]0;prashanth@linux-labs: /[01;32mprashanth@linux-labs[00m:[01;34m/[00m$ pwd
+[?2004l/
+[?2004h]0;prashanth@linux-labs: /[01;32mprashanth@linux-labs[00m:[01;34m/[00m$ ls -lah
+[?2004ltotal 2.8M
+drwxr-xr-x  19 root root 4.0K Jul  5 17:43 [0m[01;34m.[0m
+drwxr-xr-x  19 root root 4.0K Jul  5 17:43 [01;34m..[0m
+lrwxrwxrwx   1 root root    7 Apr 20 14:16 [01;36mbin[0m -> [01;34musr/bin[0m
+drwxr-xr-x   2 root root 4.0K Apr 20 14:16 [01;34mboot[0m
+drwxr-xr-x  15 root root 3.8K Jul  5 17:43 [01;34mdev[0m
+drwxr-xr-x  89 root root 4.0K Jul  5 17:43 [01;34metc[0m
+drwxr-xr-x   6 root root 4.0K Jul  4 11:09 [01;34mhome[0m
+-rwxr-xr-x   1 root root 2.8M Jun 26 02:57 [01;32minit[0m
+lrwxrwxrwx   1 root root    7 Apr 20 14:16 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx   1 root root    9 Apr 20 14:16 [01;36mlib64[0m -> [01;34musr/lib64[0m
+drwx------   2 root root  16K Jul  4 10:51 [01;34mlost+found[0m
+drwxr-xr-x   2 root root 4.0K Apr 20 23:35 [01;34mmedia[0m
+drwxr-xr-x   6 root root 4.0K Jul  4 10:52 [01;34mmnt[0m
+drwxr-xr-x   2 root root 4.0K Apr 20 23:35 [01;34mopt[0m
+dr-xr-xr-x 225 root root    0 Jul  5 17:43 [01;34mproc[0m
+drwx------   4 root root 4.0K Jul  4 11:41 [01;34mroot[0m
+drwxr-xr-x  22 root root  580 Jul  5 17:43 [01;34mrun[0m
+lrwxrwxrwx   1 root root    8 Apr 20 14:16 [01;36msbin[0m -> [01;34musr/sbin[0m
+drwxr-xr-x   2 root root 4.0K Jul  4 10:52 [01;34msnap[0m
+drwxr-xr-x   2 root root 4.0K Apr 20 23:35 [01;34msrv[0m
+dr-xr-xr-x  13 root root    0 Jul  5 18:20 [01;34msys[0m
+drwxrwxrwt   6 root root  120 Jul  5 18:25 [30;42mtmp[0m
+drwxr-xr-x  12 root root 4.0K Apr 20 23:35 [01;34musr[0m
+drwxr-xr-x  13 root root 4.0K Jul  4 10:52 [01;34mvar[0m
+[?2004h]0;prashanth@linux-labs: /[01;32mprashanth@linux-labs[00m:[01;34m/[00m$ cd ~
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ pwd
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd documents
+[?2004l[?2004h]0;prashanth@linux-labs: ~/documents[01;32mprashanth@linux-labs[00m:[01;34m~/documents[00m$ cd ..
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd downloads[K[K[Kads
+[?2004l[?2004h]0;prashanth@linux-labs: ~/downloads[01;32mprashanth@linux-labs[00m:[01;34m~/downloads[00m$ cd -
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd -
+[?2004l/home/prashanth/downloads
+[?2004h]0;prashanth@linux-labs: ~/downloads[01;32mprashanth@linux-labs[00m:[01;34m~/downloads[00m$ ../documents
+[?2004lbash: ../documents: Is a directory
+[?2004h]0;prashanth@linux-labs: ~/downloads[01;32mprashanth@linux-labs[00m:[01;34m~/downloads[00m$ ../documents[1@c[1@d[1@ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/documents[01;32mprashanth@linux-labs[00m:[01;34m~/documents[00m$ cd /etc
+[?2004l[?2004h]0;prashanth@linux-labs: /etc[01;32mprashanth@linux-labs[00m:[01;34m/etc[00m$ pwd
+[?2004l/etc
+[?2004h]0;prashanth@linux-labs: /etc[01;32mprashanth@linux-labs[00m:[01;34m/etc[00m$ ../var/log[1@c[1@d[1@ 
+[?2004l[?2004h]0;prashanth@linux-labs: /var/log[01;32mprashanth@linux-labs[00m:[01;34m/var/log[00m$ pwd
+[?2004l/var/log
+[?2004h]0;prashanth@linux-labs: /var/log[01;32mprashanth@linux-labs[00m:[01;34m/var/log[00m$ cd -
+[?2004l/etc
+[?2004h]0;prashanth@linux-labs: /etc[01;32mprashanth@linux-labs[00m:[01;34m/etc[00m$ exit
+[?2004lexit
+
+Script done on 2026-07-05 19:23:25+05:30 [COMMAND_EXIT_CODE="0"]
