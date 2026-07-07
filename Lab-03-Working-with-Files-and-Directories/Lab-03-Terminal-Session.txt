@@ -1,0 +1,441 @@
+Script started on 2026-07-07 12:52:59+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="76" LINES="41"]
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mkdir -pm [K[K Cybersecurity/ [KDocuments [7mCybersecurity/Docum[27m[7me[27m[7mnts[27m[A]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CCybersecurity/Documents[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[KScrip ts [7mCybersecurity/Documents[27m[C[C[CCybersecurity/Documents[K[K[K[K[K[K[K[K[KBackup
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ tree
+[?2004l[01;34m.[0m
+├── [01;34mCybersecurity[0m
+│   ├── [01;34mBackup[0m
+│   ├── [01;34mDocuments[0m
+│   └── [01;34mScripts[0m
+└── Lab-03-Terminal-Session.txt
+
+5 directories, 1 file
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ touch report.txt notes.txt checklist.txt Cybersecurity/Dco[K[Kov[Kcuments/[K
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls Cybersecurity/Documents/[K
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls Cybersecurity/Documents/
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ tree
+[?2004l[01;34m.[0m
+├── [01;34mCybersecurity[0m
+│   ├── [01;34mBackup[0m
+│   ├── [01;34mDocuments[0m
+│   └── [01;34mScripts[0m
+├── Lab-03-Terminal-Session.txt
+├── checklist.txt
+├── notes.txt
+└── report.txt
+
+5 directories, 4 files
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ rm report.txt  [Knotes.txt checklist.txt 
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mCybersecurity[0m  Lab-03-Terminal-Session.txt
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ tree
+[?2004l[01;34m.[0m
+├── [01;34mCybersecurity[0m
+│   ├── [01;34mBackup[0m
+│   ├── [01;34mDocuments[0m
+│   └── [01;34mScripts[0m
+└── Lab-03-Terminal-Session.txt
+
+5 directories, 1 file
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ touch Cybersecurity/Documents/report.txt cyb[K[K[KCybersecurity/Documents/notes.txt Cybersecurity/Documents/checklist.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ tree
+[?2004l[01;34m.[0m
+├── [01;34mCybersecurity[0m
+│   ├── [01;34mBackup[0m
+│   ├── [01;34mDocuments[0m
+│   │   ├── checklist.txt
+│   │   ├── notes.txt
+│   │   └── report.txt
+│   └── [01;34mScripts[0m
+└── Lab-03-Terminal-Session.txt
+
+5 directories, 4 files
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ touch Cybersecurity/Scripts/scan.sh Cybersecurity/Sc ripts/backup.sh
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ tree
+[?2004l[01;34m.[0m
+├── [01;34mCybersecurity[0m
+│   ├── [01;34mBackup[0m
+│   ├── [01;34mDocuments[0m
+│   │   ├── checklist.txt
+│   │   ├── notes.txt
+│   │   └── report.txt
+│   └── [01;34mScripts[0m
+│       ├── backup.sh
+│       └── scan.sh
+└── Lab-03-Terminal-Session.txt
+
+5 directories, 6 files
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls cybers[K[K[K[K[K[KCybersecurity/[K
+[?2004l[0m[01;34mBackup[0m  [01;34mDocuments[0m  [01;34mScripts[0m
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls -r[Klah Cybersecurity/[K
+[?2004ltotal 20K
+drwxr-xr-x 5 prashanth prashanth 4.0K Jul  7 12:55 [0m[01;34m.[0m
+drwxr-x--- 5 prashanth prashanth 4.0K Jul  7 12:57 [01;34m..[0m
+drwxr-xr-x 2 prashanth prashanth 4.0K Jul  7 12:55 [01;34mBackup[0m
+drwxr-xr-x 2 prashanth prashanth 4.0K Jul  7 12:58 [01;34mDocuments[0m
+drwxr-xr-x 2 prashanth prashanth 4.0K Jul  7 13:00 [01;34mScripts[0m
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls -R Cybersecurity/[K
+[?2004lCybersecurity:
+[0m[01;34mBackup[0m  [01;34mDocuments[0m  [01;34mScripts[0m
+
+Cybersecurity/Backup:
+
+Cybersecurity/Documents:
+checklist.txt  notes.txt  report.txt
+
+Cybersecurity/Scripts:
+backup.sh  scan.sh
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cp Cybersecurity/Documents/report.txt  Cybersecurity/Backup/reop[K[Kport_backup.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls -R cybersuc[K[K[K[K[K[K[K[K[K[K[Kcy[K[KCybersecurity/[1@-[1@R[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[?2004lCybersecurity:
+[0m[01;34mBackup[0m  [01;34mDocuments[0m  [01;34mScripts[0m
+
+Cybersecurity/Backup:
+report_backup.txt
+
+Cybersecurity/Documents:
+checklist.txt  notes.txt  report.txt
+
+Cybersecurity/Scripts:
+backup.sh  scan.sh
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mv Cybersecurity/Scripts/backup.sh Cybersecurity/Backup/
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mv Cybersecurity/Scripts/backup.sh Cybersecurity/Backup/[A]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ [33Pls -R Cybersecurity
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lCybersecurity:
+[0m[01;34mBackup[0m  [01;34mDocuments[0m  [01;34mScripts[0m
+
+Cybersecurity/Backup:
+backup.sh  report_backup.txt
+
+Cybersecurity/Documents:
+checklist.txt  notes.txt  report.txt
+
+Cybersecurity/Scripts:
+scan.sh
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mv Cybersecurity/Documents/notes.txt  [Kc[KCybersecurity/D ocuments/meeting_notes.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mv Cybersecurity/Documents/notes.txt Cybersecurity/Documents/meeting_notes.txt[A[33Pls -R Cybersecurity
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktree
+[?2004l[01;34m.[0m
+├── [01;34mCybersecurity[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── checklist.txt
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   └── [01;34mScripts[0m
+│       └── scan.sh
+└── Lab-03-Terminal-Session.txt
+
+5 directories, 7 files
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ rm Cybersecurity/Documents/checklist.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@-[1@i[1@ [1P[1@v[1@ 
+[?2004lrm: remove regular empty file 'Cybersecurity/Documents/checklist.txt'? y
+removed 'Cybersecurity/Documents/checklist.txt'
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mkdir Cybersecurity/Tmp[K[Kw[Kemo[Kp
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ tree
+[?2004l[01;34m.[0m
+├── [01;34mCybersecurity[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   ├── [01;34mScripts[0m
+│   │   └── scan.sh
+│   └── [01;34mTemp[0m
+└── Lab-03-Terminal-Session.txt
+
+6 directories, 6 files
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mkdir T[KCybersecurity/Temp/[K
+[?2004lmkdir: Cybersecurity/Temp: File exists
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mkdir Cybersecurity/Temp[1P[1P[1@m[1@e
+[?2004l
+Command 'medir' not found, did you mean:
+  command 'mdir' from deb mtools (4.0.49-1)
+  command 'mmdir' from deb simh (3.8.1-6.3)
+  command 'redir' from deb redir (3.3-1build1)
+  command 'mkdir' from deb coreutils-from-gnu (0.0.0~ubuntu25)
+  command 'mkdir' from deb coreutils-from-uutils (0.0.0~ubuntu25)
+  command 'mkdir' from deb coreutils-from-busybox (0.0.0~ubuntu25)
+  command 'mkdir' from deb coreutils-from-toybox (0.0.0~ubuntu25)
+Try: sudo apt install <deb name>
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ medir Cybersecurity/Temp[1P[1P[1@r[1@m
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ tree
+[?2004l[01;34m.[0m
+├── [01;34mCybersecurity[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   └── [01;34mScripts[0m
+│       └── scan.sh
+└── Lab-03-Terminal-Session.txt
+
+5 directories, 6 files
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cp -r Cybersecurity/[K Cybersecurity/[K_Backup
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mCybersecurity[0m  [01;34mCybersecurity_Backup[0m  Lab-03-Terminal-Session.txt
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls -R
+[?2004l.:
+[0m[01;34mCybersecurity[0m  [01;34mCybersecurity_Backup[0m  Lab-03-Terminal-Session.txt
+
+./Cybersecurity:
+[01;34mBackup[0m  [01;34mDocuments[0m  [01;34mScripts[0m
+
+./Cybersecurity/Backup:
+backup.sh  report_backup.txt
+
+./Cybersecurity/Documents:
+meeting_notes.txt  report.txt
+
+./Cybersecurity/Scripts:
+scan.sh
+
+./Cybersecurity_Backup:
+[01;34mBackup[0m  [01;34mDocuments[0m  [01;34mScripts[0m
+
+./Cybersecurity_Backup/Backup:
+backup.sh  report_backup.txt
+
+./Cybersecurity_Backup/Documents:
+meeting_notes.txt  report.txt
+
+./Cybersecurity_Backup/Scripts:
+scan.sh
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ tree
+[?2004l[01;34m.[0m
+├── [01;34mCybersecurity[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   └── [01;34mScripts[0m
+│       └── scan.sh
+├── [01;34mCybersecurity_Backup[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   └── [01;34mScripts[0m
+│       └── scan.sh
+└── Lab-03-Terminal-Session.txt
+
+9 directories, 11 files
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mkdir Cyer[K[Kbersecurity/Logs
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls Cybersecurity
+[?2004l[0m[01;34mBackup[0m  [01;34mDocuments[0m  [01;34mLogs[0m  [01;34mScripts[0m
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ touch log{}1}.}.}3}[C.txt Cybersecurity/Logs/[K
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls -R
+[?2004l.:
+[0m[01;34mCybersecurity[0m         Lab-03-Terminal-Session.txt  log2.txt
+[01;34mCybersecurity_Backup[0m  log1.txt                     log3.txt
+
+./Cybersecurity:
+[01;34mBackup[0m  [01;34mDocuments[0m  [01;34mLogs[0m  [01;34mScripts[0m
+
+./Cybersecurity/Backup:
+backup.sh  report_backup.txt
+
+./Cybersecurity/Documents:
+meeting_notes.txt  report.txt
+
+./Cybersecurity/Logs:
+
+./Cybersecurity/Scripts:
+scan.sh
+
+./Cybersecurity_Backup:
+[01;34mBackup[0m  [01;34mDocuments[0m  [01;34mScripts[0m
+
+./Cybersecurity_Backup/Backup:
+backup.sh  report_backup.txt
+
+./Cybersecurity_Backup/Documents:
+meeting_notes.txt  report.txt
+
+./Cybersecurity_Backup/Scripts:
+scan.sh
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls [K[K[Ktree
+[?2004l[01;34m.[0m
+├── [01;34mCybersecurity[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   ├── [01;34mLogs[0m
+│   └── [01;34mScripts[0m
+│       └── scan.sh
+├── [01;34mCybersecurity_Backup[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   └── [01;34mScripts[0m
+│       └── scan.sh
+├── Lab-03-Terminal-Session.txt
+├── log1.txt
+├── log2.txt
+└── log3.txt
+
+10 directories, 14 files
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ touch [K[K[K[K[K[Ktreels -Rtouch log{1..3}.txt Cybersecurity/Logs
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls Cybersecurity/Logs/
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ touch lof[Kg[K[K[K[K[K[K[K[K[Krm log{}1}.}.}3}[C.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ tree
+[?2004l[01;34m.[0m
+├── [01;34mCybersecurity[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   ├── [01;34mLogs[0m
+│   └── [01;34mScripts[0m
+│       └── scan.sh
+├── [01;34mCybersecurity_Backup[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   └── [01;34mScripts[0m
+│       └── scan.sh
+└── Lab-03-Terminal-Session.txt
+
+10 directories, 11 files
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ touch CybersecurityL[K/Logs/log{}1}.}.}5}[C.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ tree
+[?2004l[01;34m.[0m
+├── [01;34mCybersecurity[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   ├── [01;34mLogs[0m
+│   │   ├── log1.txt
+│   │   ├── log2.txt
+│   │   ├── log3.txt
+│   │   ├── log4.txt
+│   │   └── log5.txt
+│   └── [01;34mScripts[0m
+│       └── scan.sh
+├── [01;34mCybersecurity_Backup[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   └── [01;34mScripts[0m
+│       └── scan.sh
+└── Lab-03-Terminal-Session.txt
+
+10 directories, 16 files
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mv Cybersecurity?[K/Logs/lo0g[K[Kg{1..5}.txt Cybersecurity/Backup/
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ tree
+[?2004l[01;34m.[0m
+├── [01;34mCybersecurity[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   ├── log1.txt
+│   │   ├── log2.txt
+│   │   ├── log3.txt
+│   │   ├── log4.txt
+│   │   ├── log5.txt
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   ├── [01;34mLogs[0m
+│   └── [01;34mScripts[0m
+│       └── scan.sh
+├── [01;34mCybersecurity_Backup[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   └── [01;34mScripts[0m
+│       └── scan.sh
+└── Lab-03-Terminal-Session.txt
+
+10 directories, 16 files
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mkd[K[K[Krmdir Lo[K[KCybersecurity/Logs/[K
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ tree
+[?2004l[01;34m.[0m
+├── [01;34mCybersecurity[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   ├── log1.txt
+│   │   ├── log2.txt
+│   │   ├── log3.txt
+│   │   ├── log4.txt
+│   │   ├── log5.txt
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   └── [01;34mScripts[0m
+│       └── scan.sh
+├── [01;34mCybersecurity_Backup[0m
+│   ├── [01;34mBackup[0m
+│   │   ├── backup.sh
+│   │   └── report_backup.txt
+│   ├── [01;34mDocuments[0m
+│   │   ├── meeting_notes.txt
+│   │   └── report.txt
+│   └── [01;34mScripts[0m
+│       └── scan.sh
+└── Lab-03-Terminal-Session.txt
+
+9 directories, 16 files
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls _R[K[K-R
+[?2004l.:
+[0m[01;34mCybersecurity[0m  [01;34mCybersecurity_Backup[0m  Lab-03-Terminal-Session.txt
+
+./Cybersecurity:
+[01;34mBackup[0m  [01;34mDocuments[0m  [01;34mScripts[0m
+
+./Cybersecurity/Backup:
+backup.sh  log2.txt  log4.txt  report_backup.txt
+log1.txt   log3.txt  log5.txt
+
+./Cybersecurity/Documents:
+meeting_notes.txt  report.txt
+
+./Cybersecurity/Scripts:
+scan.sh
+
+./Cybersecurity_Backup:
+[01;34mBackup[0m  [01;34mDocuments[0m  [01;34mScripts[0m
+
+./Cybersecurity_Backup/Backup:
+backup.sh  report_backup.txt
+
+./Cybersecurity_Backup/Documents:
+meeting_notes.txt  report.txt
+
+./Cybersecurity_Backup/Scripts:
+scan.sh
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-07-07 13:26:03+05:30 [COMMAND_EXIT_CODE="0"]
