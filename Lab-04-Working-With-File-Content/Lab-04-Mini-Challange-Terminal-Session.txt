@@ -1,0 +1,2170 @@
+Script started on 2026-07-08 12:14:25+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd `[K~
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ pwd
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mkdir Cyberser[Kcurity
+[?2004lmkdir: Cybersecurity: File exists
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mCybersecurity[0m  [01;34mCybersecurity_Backup[0m  Lab-04-Terminal-Session.txt
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ [K]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls Cybersecurity
+[?2004l[0m[01;34mBackup[0m  [01;34mDocuments[0m  [01;34mScripts[0m
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ remo[K[K[Km -r Cybersecurity
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ rm -r Cybersecurity[C_Backup/[K
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls
+[?2004lLab-04-Terminal-Session.txt
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mkdir Cybersec[K[Kecurity
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ touch employees.txt department.txt nor[Ktes.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls Cybersecurity/
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls Cybersecurity/[K
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mv employees.txt department.txt notes.txt Cybersecurity/
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls Cybersecurity/
+[?2004ldepartment.txt  employees.txt  notes.txt
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ nano employee[K[K[K[K[K[K[K[KCybersecurity/employees.txt [K
+[?2004l[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;32H(B[0;7m[ Reading... ](B[m[39;31H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 8.7.1            Cybersecurity/employees.txt                     [1;75H(B[m[40d(B[0;7m^G(B[m Help[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[40;61H(B[0;7m^T(B[m Execute[41d(B[0;7m^X(B[m Exit[41;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[39d[K[1;57H(B[0;7m*[75G(B[m[2dJohn[3dDavid[4dSarah[5dMichael[6dEmma[7dRobert[8dSophia[9dDaniel[?12l[?25h[?25l[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[K[41;2H(B[0;7mC(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[K[40;70H[A(B[0;7mWrite to File: Cybersecurity/employees.txt                                  [39;43H(B[m[?12l[?25h[?25l[39;31H[1K (B[0;7m[ Writing... ](B[m[K[1;57H(B[0;7m [75G(B[m[39;30H(B[0;7m[ Wrote 8 lines ](B[m[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute[41;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[9;7H[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cat Cybersecurity/employees.txt 
+[?2004lJohn
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ name[K[Kno Cybersecurity/department.txt 
+[?2004l[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;32H(B[0;7m[ Reading... ](B[m[39;31H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 8.7.1           Cybersecurity/department.txt                     [1;75H(B[m[40d(B[0;7m^G(B[m Help[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[40;61H(B[0;7m^T(B[m Execute[41d(B[0;7m^X(B[m Exit[41;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[39d[K[1;57H(B[0;7m*[75G(B[m[2dHR[3dFinance[4dMarketing[5dIT[6dCyber Security[7dAdministration[?12l[?25h[?25l[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[K[41;2H(B[0;7mC(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[K[40;70H[A(B[0;7mWrite to File: Cybersecurity/department.txt                                 [39;44H(B[m[?12l[?25h[?25l[39;31H[1K (B[0;7m[ Writing... ](B[m[K[1;57H(B[0;7m [75G(B[m[39;30H(B[0;7m[ Wrote 6 lines ](B[m[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute[41;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[7;15H[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cat Cybersecurity/department.txt 
+[?2004lHR
+Finance
+Marketing
+IT
+Cyber Security
+Administration
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd Cybersecurity/
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ ls
+[?2004ldepartment.txt  employees.txt  notes.txt
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ nano notes.txt 
+[?2004l[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;32H(B[0;7m[ Reading... ](B[m[39;31H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                     notes.txt                              [1;75H(B[m[40d(B[0;7m^G(B[m Help[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[40;61H(B[0;7m^T(B[m Execute[41d(B[0;7m^X(B[m Exit[41;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[39d[K[1;48H(B[0;7m*[75G(B[m[2dLinux is one of the most important operating systems used in cybersecurity.[4dLearning Linux commands improves productivity and makes penetration testing(B[0;7m>[6;1H<(B[mand Aircrack-ng run efficiently on Linux.[?12l[?25h[?25l[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[K[41;2H(B[0;7mC(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[K[40;70H[A(B[0;7mWrite to File: notes.txt                                                    [39;25H(B[m[?12l[?25h[?25l[31G[1K (B[0;7m[ Writing... ](B[m[K[1;48H(B[0;7m [75G(B[m[39;30H(B[0;7m[ Wrote 5 lines ](B[m[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute[41;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[6;43H[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat notes.txt 
+[?2004lLinux is one of the most important operating systems used in cybersecurity.
+
+Learning Linux commands improves productivity and makes penetration testing easier.
+
+Most security tools such as Nmap, Wireshark, Metasploit, Burp Suite, and Aircrack-ng run efficiently on Linux.
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat -n employees.txt 
+[?2004l     1	John
+     2	David
+     3	Sarah
+     4	Michael
+     5	Emma
+     6	Robert
+     7	Sophia
+     8	Daniel
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ less notes.txt 
+[?2004l[?1049h[22;0;0t[41;1H[?1h=Linux is one of the most important operating systems used in cybersecurity.
+
+Learning Linux commands improves productivity and makes penetration testing  easier.
+
+Most security tools such as Nmap, Wireshark, Metasploit, Burp Suite, and Air crack-ng run efficiently on Linux.
+[7mnotes.txt (END)[27m[K[K [KESCESC[KOO[KAA[K...skipping...
+Linux is one of the most important operating systems used in cybersecurity.
+
+Learning Linux commands improves productivity and makes penetration testing  easier.
+
+Most security tools such as Nmap, Wireshark, Metasploit, Burp Suite, and Air crack-ng run efficiently on Linux.
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ head employees.txt 
+[?2004lJohn
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ hd[Kead -3 employees.txt 
+[?2004lJohn
+David
+Sarah
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ tail mp[K[Kemployees.txt 
+[?2004lJohn
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ tail -2 employees.txt 
+[?2004lSophia
+Daniel
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ wc employees.txt 
+[?2004l 8  8 51 employees.txt
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ wc -w e,[Kmployees.txt 
+[?2004l8 employees.txt
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ wc -c employees.txt 
+[?2004l51 employees.txt
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat -n employees.txt 
+[?2004l     1	John
+     2	David
+     3	Sarah
+     4	Michael
+     5	Emma
+     6	Robert
+     7	Sophia
+     8	Daniel
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ wc -l employees.txt 
+[?2004l8 employees.txt
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep[Kp emma employees.txt 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep emma employees.txt [1P[1@E
+[?2004l[01;31m[KEmma[m[K
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ nano empl
+[?2004l[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;33H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 8.7.1                       empl                                 [1;75H(B[m[40d(B[0;7m^G(B[m Help[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[40;61H(B[0;7m^T(B[m Execute[41d(B[0;7m^X(B[m Exit[41;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[39d[K[1;45H(B[0;7m*[75G(B[m[2dTanmay[3dUmesh[4dVaibhav[5dWasim[6dYogesh[7dZubin[8dAlok[9dBhuvan[10dChetan[11dDarshan[12dEshan[13dFiroz[14dGirish[15dHemal[16dIndrajit[17dJay[18dKartik[19dLaksh[20dManav[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[Ara[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[An[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HSachin[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HRaghu[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HQasim[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HParth[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HOmkar[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HNilesh[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HMadhav[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HLalit[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HKishan[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HJatin[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HIshan[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HHitesh[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HGopal[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HFarhan[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[K[41;2H(B[0;7mC(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[K[40;70H[A(B[0;7mWrite to File: empl                                                         [39;20H(B[m[?12l[?25h[?25l[39;31H[1K (B[0;7m[ Writing... ](B[m[K[1;45H(B[0;7m [75G(B[m[39;29H(B[0;7m[ Wrote 102 lines ](B[m[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute[41;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[10;6H[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat employees.txt 
+[?2004lJohn
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ nano empl
+empl           employees.txt  
+]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ nano empl
+empl           employees.txt  
+]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ nano employees.txt 
+[?2004l[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;32H(B[0;7m[ Reading... ](B[m[39;31H(B[0;7m[ Read 8 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                   employees.txt                            [1;75H(B[m[40d(B[0;7m^G(B[m Help[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[40;61H(B[0;7m^T(B[m Execute[41d(B[0;7m^X(B[m Exit[41;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2dJohn[3dDavid[4dSarah[5dMichael[6dEmma[7dRobert[8dSophia[9dDaniel[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[39d[K[1;50H(B[0;7m*[75G(B[m[2dTanmay[3dUmesh[4dVaibhav[5dWasim[K[6dYogesh[7dZubin[K[8dAlok[K[9dBhuvan[10dChetan[11dDarshan[12dEshan[13dFiroz[14dGirish[15dHemal[16dIndrajit[17dJay[18dKartik[19dLaksh[20dManav[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[Ara[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[An[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HSachin[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HRaghu[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HQasim[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HParth[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HOmkar[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HNilesh[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HMadhav[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HLalit[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HKishan[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HJatin[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HIshan[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HHitesh[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HGopal[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HFarhan[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HEshwar[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HDev[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HBharat[?25l[?12l[?25h7[2;39r8M[1;41r[2;1HAnil[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HRohit[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HSanjay[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HVinay[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HUday[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HKapil[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HSunil[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HRajesh[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HNaresh[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HKishore[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HBhavesh[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HDinesh[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HRamesh[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HNaveen[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HShashank[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HGaurav[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HHemant[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HAnand[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HShubham[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HNitin[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HTarun[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HSuraj[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HRavi[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HChandan[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HTejas[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HLokesh[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HAshwin[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HPrashanth[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HPavan[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HNaveen[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HMohit[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HKunal[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HDhruv[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HAryan[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HPranav[?25l[?12l[?25h7[2;38r8M[1;41r[2;1HGanesh[?25lMichael[3dEmma[K[4dRobert[5dSophia[6dDaniel[7dAarav[8dVivaa[9dAditya[10dVihaan[K[11dArjun[K[12dSai[K[13dKrishna[14dRohan[K[15;3Hhul[16dKaran[17dAman[K[18dAkash[19dNikhil[K[20dAbhishek[21dAnkit[K[22dVarun[K[23dHarsh[K[24dYash[K[25dMani[26dSiddharth[27dRitik[K[28dRajat[K[29dDeepak[30dVikram[31dAjay[K[32dVijay[33dRakesh[34dMukesh[35dSuresh[36dMahesh[37dGanesh[38dPranav[2d[?12l[?25h[?25l7[2;38r8[3T[1;41r[2;1HJohn[3dDavid[4dSarah[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[K[41;2H(B[0;7mC(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[K[40;70H[A(B[0;7mWrite to File: employees.txt                                                [39;29H(B[m[?12l[?25h[?25l  [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [75G(B[m[39;29H(B[0;7m[ Wrote 110 lines ](B[m[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute[41;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[2d[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ head employees.txt 
+[?2004lJohn
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+Aarav
+Vivaan
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ tail employees.txt 
+[?2004lDarshan
+Eshan
+Firoz
+Girish
+Hemal
+Indrajit
+Jay
+Kartik
+Laksh
+Manav
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ less employees.txt 
+[?2004l[?1049h[22;0;0t[41;1H[?1h=John
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+Aarav
+Vivaan
+Aditya
+Vihaan
+Arjun
+Sai
+Krishna
+Rohan
+Rahul
+Karan
+Aman
+Akash
+Nikhil
+Abhishek
+Ankit
+Varun
+Harsh
+Yash
+Manish
+Siddharth
+Ritik
+Rajat
+Deepak
+Vikram
+Ajay
+Vijay
+Rakesh
+Mukesh
+Suresh
+Mahesh
+Ganesh
+Pranav
+[7memployees.txt[27m[K[KAryan
+:[K[K[?1l>[?1049l[23;0;0t[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ nano cat[K[K[Knotes.txt 
+[?2004l[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;32H(B[0;7m[ Reading... ](B[m[39;31H(B[0;7m[ Read 5 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                     notes.txt                              [1;75H(B[m[40d(B[0;7m^G(B[m Help[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[40;61H(B[0;7m^T(B[m Execute[41d(B[0;7m^X(B[m Exit[41;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2dLinux is one of the most important operating systems used in cybersecurity.[4dLearning Linux commands improves productivity and makes penetration testing(B[0;7m>[6;1H(B[mMost security tools such as Nmap, Wireshark, Metasploit, Burp Suite, and Ai(B[0;7m>[2;1H(B[m[?12l[?25h[?25l[39d[K[1;48H(B[0;7m*[75G(B[m[2d(B[0;7m<(B[mtice practice practice.Linux is one of the most important operating system(B[0;7m>[2;25H(B[m[?12l[?25h[?25l[Cy Linux Linux Linux practice practice practice.Linux is one of the most i[2;49H[?12l[?25h[?25l[Cng security cybersecurity Linux Linux Linux practice practice practice.Lin[?12l[?25h[?25l[3Gd system administration.Linux is one of the most important operating syst[2;27H[?12l[?25h[?25l[Ckills skills skills.Linux is one of the most important operating systems u[2;22H[?12l[?25h[?25l[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[K[41;2H(B[0;7mC(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[K[40;70H[A(B[0;7mWrite to File: notes.txt                                                    [39;25H(B[m[?12l[?25h[?25l[31G[1K (B[0;7m[ Writing... ](B[m[K[1;48H(B[0;7m [75G(B[m[39;30H(B[0;7m[ Wrote 5 lines ](B[m[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute[41;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[2;22H[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep The notes.txt 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat nor[Ktes.txt 
+[?2004lLinux is powerful Linux is flexible Linux is secure Linux is reliable. Learning Linux requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity Linux Linux Linux practice practice practice.Linux is powerful Linux is flexible Linux is secure Linux is reliable. Learning Linux requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity Linux Linux Linux practice practice practice.Linux is powerful Linux is flexible Linux is secure Linux is reliable. Learning Linux requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity Linux Linux Linux practice practice practice.Cybersecurity cybersecurity cybersecurity depends on knowledge knowledge knowledge and continuous learning learning learning. Wireshark Wireshark captures packets packets packets. Nmap scans networks networks networks. Burp Suite tests web applications web applications web applications. Linux Linux Linux is the foundation foundation foundation for ethical hacking penetration testing security analysis and system administration.Practice makes progress practice makes confidence practice makes experience. Read files write files copy files move files rename files delete files create directories list directories change directories search files search text compare files and repeat repeat repeat. Learn Linux every day every day every day because consistency consistency consistency builds strong cybersecurity skills skills skills.Linux is one of the most important operating systems used in cybersecurity.
+
+Learning Linux commands improves productivity and makes penetration testing easier.
+
+Most security tools such as Nmap, Wireshark, Metasploit, Burp Suite, and Aircrack-ng run efficiently on Linux.
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep Linux notes.txt 
+[?2004l[01;31m[KLinux[m[K is powerful [01;31m[KLinux[m[K is flexible [01;31m[KLinux[m[K is secure [01;31m[KLinux[m[K is reliable. Learning [01;31m[KLinux[m[K requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity [01;31m[KLinux[m[K [01;31m[KLinux[m[K [01;31m[KLinux[m[K practice practice practice.[01;31m[KLinux[m[K is powerful [01;31m[KLinux[m[K is flexible [01;31m[KLinux[m[K is secure [01;31m[KLinux[m[K is reliable. Learning [01;31m[KLinux[m[K requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity [01;31m[KLinux[m[K [01;31m[KLinux[m[K [01;31m[KLinux[m[K practice practice practice.[01;31m[KLinux[m[K is powerful [01;31m[KLinux[m[K is flexible [01;31m[KLinux[m[K is secure [01;31m[KLinux[m[K is reliable. Learning [01;31m[KLinux[m[K requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity [01;31m[KLinux[m[K [01;31m[KLinux[m[K [01;31m[KLinux[m[K practice practice practice.Cybersecurity cybersecurity cybersecurity depends on knowledge knowledge knowledge and continuous learning learning learning. Wireshark Wireshark captures packets packets packets. Nmap scans networks networks networks. Burp Suite tests web applications web applications web applications. [01;31m[KLinux[m[K [01;31m[KLinux[m[K [01;31m[KLinux[m[K is the foundation foundation foundation for ethical hacking penetration testing security analysis and system administration.Practice makes progress practice makes confidence practice makes experience. Read files write files copy files move files rename files delete files create directories list directories change directories search files search text compare files and repeat repeat repeat. Learn [01;31m[KLinux[m[K every day every day every day because consistency consistency consistency builds strong cybersecurity skills skills skills.[01;31m[KLinux[m[K is one of the most important operating systems used in cybersecurity.
+Learning [01;31m[KLinux[m[K commands improves productivity and makes penetration testing easier.
+Most security tools such as Nmap, Wireshark, Metasploit, Burp Suite, and Aircrack-ng run efficiently on [01;31m[KLinux[m[K.
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep pr[K[K-in PraShanTh employees.txt 
+[?2004l[32m[K47[m[K[36m[K:[m[K[01;31m[KPrashanth[m[K
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ rm -[Kempl
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ ls
+[?2004ldepartment.txt  employees.txt  notes.txt
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep -i LiNI[KUX notes.txt 
+[?2004l[01;31m[KLinux[m[K is powerful [01;31m[KLinux[m[K is flexible [01;31m[KLinux[m[K is secure [01;31m[KLinux[m[K is reliable. Learning [01;31m[KLinux[m[K requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity [01;31m[KLinux[m[K [01;31m[KLinux[m[K [01;31m[KLinux[m[K practice practice practice.[01;31m[KLinux[m[K is powerful [01;31m[KLinux[m[K is flexible [01;31m[KLinux[m[K is secure [01;31m[KLinux[m[K is reliable. Learning [01;31m[KLinux[m[K requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity [01;31m[KLinux[m[K [01;31m[KLinux[m[K [01;31m[KLinux[m[K practice practice practice.[01;31m[KLinux[m[K is powerful [01;31m[KLinux[m[K is flexible [01;31m[KLinux[m[K is secure [01;31m[KLinux[m[K is reliable. Learning [01;31m[KLinux[m[K requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity [01;31m[KLinux[m[K [01;31m[KLinux[m[K [01;31m[KLinux[m[K practice practice practice.Cybersecurity cybersecurity cybersecurity depends on knowledge knowledge knowledge and continuous learning learning learning. Wireshark Wireshark captures packets packets packets. Nmap scans networks networks networks. Burp Suite tests web applications web applications web applications. [01;31m[KLinux[m[K [01;31m[KLinux[m[K [01;31m[KLinux[m[K is the foundation foundation foundation for ethical hacking penetration testing security analysis and system administration.Practice makes progress practice makes confidence practice makes experience. Read files write files copy files move files rename files delete files create directories list directories change directories search files search text compare files and repeat repeat repeat. Learn [01;31m[KLinux[m[K every day every day every day because consistency consistency consistency builds strong cybersecurity skills skills skills.[01;31m[KLinux[m[K is one of the most important operating systems used in cybersecurity.
+Learning [01;31m[KLinux[m[K commands improves productivity and makes penetration testing easier.
+Most security tools such as Nmap, Wireshark, Metasploit, Burp Suite, and Aircrack-ng run efficiently on [01;31m[KLinux[m[K.
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat employees.txt > backup.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ ls
+[?2004lbackup.txt  department.txt  employees.txt  notes.txt
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ head backup.txt 
+[?2004lJohn
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+Aarav
+Vivaan
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat department.txt >> backup.txt 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat [K[K[K[Kcat -20 backup.txt 
+[?2004l[31merror[0m: unexpected argument '[33m-2[0m' found
+
+  [32mtip[0m: to pass '-2' as a value, use '-- -2'
+
+Usage: cat [OPTION]... [FILE]...
+
+For more information, try '--help'.
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat -20 backup.txt [C[C[C[C[C[C[C[1P
+[?2004l[31merror[0m: unexpected argument '[33m-2[0m' found
+
+  [32mtip[0m: to pass '-2' as a value, use '-- -2'
+
+Usage: cat [OPTION]... [FILE]...
+
+For more information, try '--help'.
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ head -15 backup.txt 
+[?2004lJohn
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+Aarav
+Vivaan
+Aditya
+Vihaan
+Arjun
+Sai
+Krishna
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ tail -2-[K0 backup.txt 
+[?2004lZubin
+Alok
+Bhuvan
+Chetan
+Darshan
+Eshan
+Firoz
+Girish
+Hemal
+Indrajit
+Jay
+Kartik
+Laksh
+Manav
+HR
+Finance
+Marketing
+IT
+Cyber Security
+Administration
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cp employees.txt employees.txt [C[C[1@2
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ ls
+[?2004lbackup.txt  department.txt  employees.txt  employees2.txt  notes.txt
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ nano employees2.txt 
+[?2004l[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;32H(B[0;7m[ Reading... ](B[m[39;30H(B[0;7m[ Read 110 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                  employees2.txt                            [1;75H(B[m[40d(B[0;7m^G(B[m Help[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[40;61H(B[0;7m^T(B[m Execute[41d(B[0;7m^X(B[m Exit[41;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2dJohn[3dDavid[4dSarah[5dMichael[6dEmma[7dRobert[8dSophia[9dDaniel[10dAarav[11dVivaan[12dAditya[13dVihaan[14dArjun[15dSai[16dKrishna[17dRohan[18dRahul[19dKaran[20dAman[21dAkash[22dNikhil[23dAbhishek[24dAnkit[25dVarun[26dHarsh[27dYash[28dManish[29dSiddharth[30dRitik[31dRajat[32dDeepak[33dVikram[34dAjay[35dVijay[36dRakesh[37dMukesh[38dSuresh[2d[?12l[?25h[?25l[1;50H(B[0;7m*[75G(B[m[?12l[?25h[2dohn[K[?25l[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[K[41;2H(B[0;7mC(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[K[40;70H[A(B[0;7mWrite to File: employees2.txt                                               [39;30H(B[m[?12l[?25h[?25l [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [75G(B[m[39;29H(B[0;7m[ Wrote 110 lines ](B[m[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute[41;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[2d[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ diff employees.txt employees2.txt 
+[?2004l1c1
+< John
+---
+> ohn
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ diff [K[K[K[K[Knano employees2.txt 
+[?2004l[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;32H(B[0;7m[ Reading... ](B[m[39;30H(B[0;7m[ Read 110 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                  employees2.txt                            [1;75H(B[m[40d(B[0;7m^G(B[m Help[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[40;61H(B[0;7m^T(B[m Execute[41d(B[0;7m^X(B[m Exit[41;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2dohn[3dDavid[4dSarah[5dMichael[6dEmma[7dRobert[8dSophia[9dDaniel[10dAarav[11dVivaan[12dAditya[13dVihaan[14dArjun[15dSai[16dKrishna[17dRohan[18dRahul[19dKaran[20dAman[21dAkash[22dNikhil[23dAbhishek[24dAnkit[25dVarun[26dHarsh[27dYash[28dManish[29dSiddharth[30dRitik[31dRajat[32dDeepak[33dVikram[34dAjay[35dVijay[36dRakesh[37dMukesh[38dSuresh[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[39d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h[37d[?25l[?12l[?25h[38d[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HMahesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HGanesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HPranav[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HAryan[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HDhruv[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HKunal[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HMohit[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HNaveen[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HPavan[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HPrashanth[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HAshwin[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HLokesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HTejas[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HChandan[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HRavi[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HSuraj[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HTarun[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HNitin[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HShubham[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HAnand[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HHemant[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HGaurav[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HShashank[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HNaveen[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HRamesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HDinesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HBhavesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HKishore[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HNaresh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HRajesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HSunil[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HKapil[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HUday[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HVinay[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HSanjay[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HRohit[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HAnil[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HBharat[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HDev[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HEshwar[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HFarhan[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HGopal[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HHitesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HIshan[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HJatin[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HKishan[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HLalit[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HMadhav[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HNilesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HOmkar[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HParth[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HQasim[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HRaghu[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HSachin[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HTanmay[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HUmesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HVaibhav[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HWasim[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HYogesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HZubin[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HAlok[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HBhuvan[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HChetan[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HDarshan[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HEshan[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HFiroz[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HGirish[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HHemal[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HIndrajit[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HJay[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HKartik[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HLaksh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HManav[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[37;6H[?25l[1;50H(B[0;7m*[75G(B[m[?12l[?25h[37;5H [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[36;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[35;7H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[AJay[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[33;9H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[32;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[31;7H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[30;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[29;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[28;8H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[27;7H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[26;7H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[AAlok[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[24;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[23;7H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[22;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[21;8H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[20;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[19;7H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[18;7H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[17;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[16;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[15;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[14;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[13;7H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[12;7H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[11;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[10;7H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[9;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[8;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[7;7H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[6;6H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[5;7H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[K[41;2H(B[0;7mC(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[K[40;70H[A(B[0;7mWrite to File: employees2.txt                                               [39;30H(B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7mSave file under DIFFERENT NAME?[40d Y(B[m Yes[K[41d(B[0;7m N(B[m No    [16G (B[0;7m^C(B[m Cancel[K[39;33H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[40d(B[0;7m^G(B[m Help[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[41d(B[0;7m^C(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[40;70H[A(B[0;7mWrite to File: employees       [25G(B[m[?12l[?25h[?25l(B[0;7mSave file under DIFFERENT NAME?[40d Y(B[m Yes[K[41d(B[0;7m N(B[m No    [16G (B[0;7m^C(B[m Cancel[K[39;33H[?12l[?25h[?25l[40d(B[0;7m^G(B[m Help[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[41d(B[0;7m^C(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[40;70H[A(B[0;7mWrite to File: employees       [25G(B[m[?12l[?25h[?25l[?12l[?25h[?25l(B[0;7mSave file under DIFFERENT NAME?[40d Y(B[m Yes[K[41d(B[0;7m N(B[m No    [16G (B[0;7m^C(B[m Cancel[K[39;33H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[40d(B[0;7m^G(B[m Help[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[41d(B[0;7m^C(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[40;70H[A(B[0;7mWrite to File: employees       [25G(B[m[?12l[?25h[?25l[31G[1K (B[0;7m[ Cancelled ](B[m[K[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute[41;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[5d[?25l[39;10H(B[0;7m[ line 78/79 (98%), col  1/ 1 (100%), char 504/505 (99%) ](B[m[?12l[?25h[5d[?25l[39;68H[?12l[?25h[5d[?25l[39;68H[?12l[?25h[5d[?25l[39;68H[?12l[?25h[5d[?25l[39;68H[?12l[?25h[5d[?25l[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[K[41;2H(B[0;7mC(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[K[40;70H[A(B[0;7mWrite to File: employees2.txt                                               [39;30H(B[m[?12l[?25h[?25l(B[0;7mi(B[m[?12l[?25h[?25l(B[0;7mo(B[m[?12l[?25h[?25l(B[0;7mq(B[m[?12l[?25h[?25l(B[0;7mj(B[m[?12l[?25h[?25l(B[0;7mw(B[m[?12l[?25h[?25l(B[0;7md(B[m[?12l[?25h[?25l(B[0;7ms(B[m[?12l[?25h[?25l(B[0;7mq(B[m[?12l[?25h[?25l(B[0;7mi(B[m[?12l[?25h[?25l(B[0;7ma(B[m[?12l[?25h[?25l(B[0;7mw(B[m[?12l[?25h[?25l(B[0;7md(B[m[?12l[?25h[?25l(B[0;7mq(B[m[?12l[?25h[?25l(B[0;7mi(B[m[?12l[?25h[?25l(B[0;7ma(B[m[?12l[?25h[?25l(B[0;7mk(B[m[?12l[?25h[?25l(B[0;7mu(B[m[?12l[?25h[?25l(B[0;7md(B[m[?12l[?25h[?25l(B[0;7mSave file under DIFFERENT NAME?                [40d Y(B[m Yes[K[41d(B[0;7m N(B[m No    [16G (B[0;7m^C(B[m Cancel[K[39;33H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;26H(B[0;7memployees2.txtioqjwdsqiawdqiakud[75G(B[m[39;30H(B[0;7m[ Wrote 78 lines ](B[m[40d(B[0;7m^G(B[m Help[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[40;61H(B[0;7m^T(B[m Execute[41d(B[0;7m^X(B[m Exit[41;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[?12l[?25h[5d[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat employees
+[?2004lcat: employees: No such file or directory
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat employees2.txt
+[?2004lohn
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+Aarav
+Vivaan
+Aditya
+Vihaan
+Arjun
+Sai
+Krishna
+Rohan
+Rahul
+Karan
+Aman
+Akash
+Nikhil
+Abhishek
+Ankit
+Varun
+Harsh
+Yash
+Manish
+Siddharth
+Ritik
+Rajat
+Deepak
+Vikram
+Ajay
+Vijay
+Rakesh
+Mukesh
+Suresh
+Mahesh
+Ganesh
+Pranav
+Aryan
+Dhruv
+Kunal
+Mohit
+Naveen
+Pavan
+Prashanth
+Ashwin
+Lokesh
+Tejas
+Chandan
+Ravi
+Suraj
+Tarun
+Nitin
+Shubham
+Anand
+Hemant
+Gaurav
+Shashank
+Naveen
+Ramesh
+Dinesh
+Bhavesh
+Kishore
+Naresh
+Rajesh
+Sunil
+Kapil
+Uday
+Vinay
+Sanjay
+Rohit
+Anil
+Bharat
+Dev
+Eshwar
+Farhan
+Gopal
+Hitesh
+Ishan
+Jatin
+Kishan
+Lalit
+Madhav
+Nilesh
+Omkar
+Parth
+Qasim
+Raghu
+Sachin
+Tanmay
+Umesh
+Vaibhav
+Wasim
+Yogesh
+Zubin
+Alok
+Bhuvan
+Chetan
+Darshan
+Eshan
+Firoz
+Girish
+Hemal
+Indrajit
+Jay
+Kartik
+Laksh
+Manav
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat employees.txt 
+[?2004lJohn
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+Aarav
+Vivaan
+Aditya
+Vihaan
+Arjun
+Sai
+Krishna
+Rohan
+Rahul
+Karan
+Aman
+Akash
+Nikhil
+Abhishek
+Ankit
+Varun
+Harsh
+Yash
+Manish
+Siddharth
+Ritik
+Rajat
+Deepak
+Vikram
+Ajay
+Vijay
+Rakesh
+Mukesh
+Suresh
+Mahesh
+Ganesh
+Pranav
+Aryan
+Dhruv
+Kunal
+Mohit
+Naveen
+Pavan
+Prashanth
+Ashwin
+Lokesh
+Tejas
+Chandan
+Ravi
+Suraj
+Tarun
+Nitin
+Shubham
+Anand
+Hemant
+Gaurav
+Shashank
+Naveen
+Ramesh
+Dinesh
+Bhavesh
+Kishore
+Naresh
+Rajesh
+Sunil
+Kapil
+Uday
+Vinay
+Sanjay
+Rohit
+Anil
+Bharat
+Dev
+Eshwar
+Farhan
+Gopal
+Hitesh
+Ishan
+Jatin
+Kishan
+Lalit
+Madhav
+Nilesh
+Omkar
+Parth
+Qasim
+Raghu
+Sachin
+Tanmay
+Umesh
+Vaibhav
+Wasim
+Yogesh
+Zubin
+Alok
+Bhuvan
+Chetan
+Darshan
+Eshan
+Firoz
+Girish
+Hemal
+Indrajit
+Jay
+Kartik
+Laksh
+Manav
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ nano employees2.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;32H(B[0;7m[ Reading... ](B[m[39;30H(B[0;7m[ Read 110 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                  employees2.txt                            [1;75H(B[m[40d(B[0;7m^G(B[m Help[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[40;61H(B[0;7m^T(B[m Execute[41d(B[0;7m^X(B[m Exit[41;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2dohn[3dDavid[4dSarah[5dMichael[6dEmma[7dRobert[8dSophia[9dDaniel[10dAarav[11dVivaan[12dAditya[13dVihaan[14dArjun[15dSai[16dKrishna[17dRohan[18dRahul[19dKaran[20dAman[21dAkash[22dNikhil[23dAbhishek[24dAnkit[25dVarun[26dHarsh[27dYash[28dManish[29dSiddharth[30dRitik[31dRajat[32dDeepak[33dVikram[34dAjay[35dVijay[36dRakesh[37dMukesh[38dSuresh[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[K[41;2H(B[0;7mC(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[K[40;70H[A(B[0;7mWrite to File: employees2.txt                                               [39;30H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[39;31H[1K (B[0;7m[ Cancelled ](B[m[K[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute[41;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[2d[?25l[1;50H(B[0;7m*[75G(B[m7[2;38r8[2dM[1;41r[3;1H[?12l[?25h[?25l[2;38r[2;1HM[1;41r[4;1H[?12l[?25h[?25l[2;38r[2;1HM[1;41r[5;1H[?12l[?25h[?25l[2;38r[2;1HM[1;41r[6;1H[?12l[?25h[?25l[2;38r[2;1HM[1;41r[7;1H[?12l[?25h[?25l[2;38r[2;1HM[1;41r[8;1H[?12l[?25h[?25l[?12l[?25hhn[K[?25l[?12l[?25hn[K[?25l[?12l[?25h[K[?25l[2;38r[38;1H
+[1;41r[38;1HVikram[8d[?12l[?25h[?25l[?12l[?25havid[K[?25l[?12l[?25hvid[K[?25l[?12l[?25hid[K[?25l[?12l[?25hd[K[?25l[?12l[?25h[K[?25l[2;38r[38;1H
+[1;41r[38;1HAjay[8d[?12l[?25h[?25l[?12l[?25harah[K[?25l[?12l[?25hrah[K[?25l[?12l[?25hah[K[?25l[39d[K[?12l[?25h[8dh[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HVijay[8d[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25hchael[K[?25l[?12l[?25hhael[K[?25l[?12l[?25hael[K[?25l[?12l[?25hel[K[?25l[?12l[?25hl[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HRakesh[8d[?12l[?25h[?25l[?12l[?25hmma[K[?25l[?12l[?25hma[K[?25l[?12l[?25ha[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HMukesh[8d[?12l[?25h[?25l[?12l[?25hobert[K[?25l[?12l[?25hbert[K[?25l[?12l[?25hert[K[?25l[?12l[?25hrt[K[?25l[?12l[?25ht[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HSuresh[8d[?12l[?25h[?25l[?12l[?25hophia[K[?25l[?12l[?25hphia[K[?25l[?12l[?25hhia[K[?25l[?12l[?25hia[K[?25l[?12l[?25ha[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HMahesh[8d[?12l[?25h[?25l[?12l[?25haniel[K[?25l[?12l[?25hniel[K[?25l[?12l[?25hiel[K[?25l[?12l[?25hel[K[?25l[?12l[?25hl[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HGanesh[8d[?12l[?25h[?25l[?12l[?25harav[K[?25l[?12l[?25hrav[K[?25l[?12l[?25hav[K[?25l[?12l[?25hv[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HPranav[8d[?12l[?25h[?25l[?12l[?25hivaan[K[?25l[?12l[?25hvaan[K[?25l[?12l[?25haan[K[?25l[?12l[?25han[K[?25l[?12l[?25hn[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HAryan[8d[?12l[?25h[?25l[?12l[?25hditya[K[?25l[?12l[?25hitya[K[?25l[?12l[?25htya[K[?25l[?12l[?25hya[K[?25l[?12l[?25ha[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HDhruv[8d[?12l[?25h[?25l[?12l[?25hihaan[K[?25l[?12l[?25hhaan[K[?25l[?12l[?25haan[K[?25l[?12l[?25han[K[?25l[?12l[?25hn[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HKunal[8d[?12l[?25h[?25l[?12l[?25hrjun[K[?25l[?12l[?25hjun[K[?25l[?12l[?25hun[K[?25l[?12l[?25hn[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HMohit[8d[?12l[?25h[?25l[?12l[?25hai[K[?25l[?12l[?25hi[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HNaveen[8d[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25hishna[K[?25l[?12l[?25hshna[K[?25l[2;39r[39;1H
+[1;41r[38;1HPavan[7d[?12l[?25h[?25l[2;39r[39;1H
+[1;41r[38;1HPrashanth[6d[?12l[?25h[?25l[2;39r[39;1H
+[1;41r[38;1HAshwin[5d[?12l[?25h[?25l[2;39r[39;1H
+[1;41r[38;1HLokesh[4d[?12l[?25h[?25l[2;39r[39;1H
+[1;41r[38;1HTejas[3d[?12l[?25h[?25l[2;39r[39;1H
+[1;41r[38;1HChandan[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hhna[K[?25l[?12l[?25hna[K[?25l[?12l[?25ha[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HRavi[2d[?12l[?25h[?25l[?12l[?25hohan[K[?25l[?12l[?25hhan[K[?25l[?12l[?25han[K[?25l[?12l[?25hn[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HSuraj[2d[?12l[?25h[?25l[?12l[?25hahul[K[?25l[?12l[?25hhul[K[?25l[?12l[?25hul[K[?25l[?12l[?25hl[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HTarun[2d[?12l[?25h[?25l[?12l[?25haran[K[?25l[?12l[?25hran[K[?25l[?12l[?25han[K[?25l[?12l[?25hn[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HNitin[2d[?12l[?25h[?25l[?12l[?25hman[K[?25l[?12l[?25han[K[?25l[?12l[?25hn[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HShubham[2d[?12l[?25h[?25l[?12l[?25hkash[K[?25l[?12l[?25hash[K[?25l[?12l[?25hsh[K[?25l[?12l[?25hh[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HAnand[2d[?12l[?25h[?25l[?12l[?25hikhil[K[?25l[?12l[?25hkhil[K[?25l[?12l[?25hhil[K[?25l[?12l[?25hil[K[?25l[?12l[?25hl[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HHemant[2d[?12l[?25h[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25hishek[K[?25l[?12l[?25hshek[K[?25l[?12l[?25hhek[K[?25l[?12l[?25hek[K[?25l[?12l[?25hk[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HGaurav[2d[?12l[?25h[?25l[?12l[?25hnkit[K[?25l[?12l[?25hkit[K[?25l[?12l[?25hit[K[?25l[?12l[?25ht[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HShashank[2d[?12l[?25h[?25l[?12l[?25harun[K[?25l[?12l[?25hrun[K[?25l[?12l[?25hun[K[?25l[?12l[?25hn[K[?25l[?12l[?25h[K[?25l[2;39r[39;1H
+[1;41r[38;1HNaveen[2d[?12l[?25h[?25l[?12l[?25harsh[K[?25l[?12l[?25hrsh[K[?25l[?12l[?25hsh[K[?25l[?12l[?25hh[K[?25l[?12l[?25h[K[?25l[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[K[41;2H(B[0;7mC(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[K[40;70H[A(B[0;7mWrite to File: employees2.txt                                               [39;30H(B[m[?12l[?25h[?25l [1K (B[0;7m[ Writing... ](B[m[K[1;50H(B[0;7m [75G(B[m[39;30H(B[0;7m[ Wrote 86 lines ](B[m[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute[41;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[2d[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat t[Khead-10 [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P0 [1P [Khead -10 employees2.txt
+[?2004l
+Yash
+Manish
+Siddharth
+Ritik
+Rajat
+Deepak
+Vikram
+Ajay
+Vijay
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ diff employees.txt employees2.txt
+[?2004l1,25c1
+< John
+< David
+< Sarah
+< Michael
+< Emma
+< Robert
+< Sophia
+< Daniel
+< Aarav
+< Vivaan
+< Aditya
+< Vihaan
+< Arjun
+< Sai
+< Krishna
+< Rohan
+< Rahul
+< Karan
+< Aman
+< Akash
+< Nikhil
+< Abhishek
+< Ankit
+< Varun
+< Harsh
+---
+> 
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat employees.txt co[K[Knotes.txt 
+[?2004lJohn
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+Aarav
+Vivaan
+Aditya
+Vihaan
+Arjun
+Sai
+Krishna
+Rohan
+Rahul
+Karan
+Aman
+Akash
+Nikhil
+Abhishek
+Ankit
+Varun
+Harsh
+Yash
+Manish
+Siddharth
+Ritik
+Rajat
+Deepak
+Vikram
+Ajay
+Vijay
+Rakesh
+Mukesh
+Suresh
+Mahesh
+Ganesh
+Pranav
+Aryan
+Dhruv
+Kunal
+Mohit
+Naveen
+Pavan
+Prashanth
+Ashwin
+Lokesh
+Tejas
+Chandan
+Ravi
+Suraj
+Tarun
+Nitin
+Shubham
+Anand
+Hemant
+Gaurav
+Shashank
+Naveen
+Ramesh
+Dinesh
+Bhavesh
+Kishore
+Naresh
+Rajesh
+Sunil
+Kapil
+Uday
+Vinay
+Sanjay
+Rohit
+Anil
+Bharat
+Dev
+Eshwar
+Farhan
+Gopal
+Hitesh
+Ishan
+Jatin
+Kishan
+Lalit
+Madhav
+Nilesh
+Omkar
+Parth
+Qasim
+Raghu
+Sachin
+Tanmay
+Umesh
+Vaibhav
+Wasim
+Yogesh
+Zubin
+Alok
+Bhuvan
+Chetan
+Darshan
+Eshan
+Firoz
+Girish
+Hemal
+Indrajit
+Jay
+Kartik
+Laksh
+Manav
+Linux is powerful Linux is flexible Linux is secure Linux is reliable. Learning Linux requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity Linux Linux Linux practice practice practice.Linux is powerful Linux is flexible Linux is secure Linux is reliable. Learning Linux requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity Linux Linux Linux practice practice practice.Linux is powerful Linux is flexible Linux is secure Linux is reliable. Learning Linux requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity Linux Linux Linux practice practice practice.Cybersecurity cybersecurity cybersecurity depends on knowledge knowledge knowledge and continuous learning learning learning. Wireshark Wireshark captures packets packets packets. Nmap scans networks networks networks. Burp Suite tests web applications web applications web applications. Linux Linux Linux is the foundation foundation foundation for ethical hacking penetration testing security analysis and system administration.Practice makes progress practice makes confidence practice makes experience. Read files write files copy files move files rename files delete files create directories list directories change directories search files search text compare files and repeat repeat repeat. Learn Linux every day every day every day because consistency consistency consistency builds strong cybersecurity skills skills skills.Linux is one of the most important operating systems used in cybersecurity.
+
+Learning Linux commands improves productivity and makes penetration testing easier.
+
+Most security tools such as Nmap, Wireshark, Metasploit, Burp Suite, and Aircrack-ng run efficiently on Linux.
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ less employees.txt 
+[?2004l[?1049h[22;0;0t[41;1H[?1h=John
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+Aarav
+Vivaan
+Aditya
+Vihaan
+Arjun
+Sai
+Krishna
+Rohan
+Rahul
+Karan
+Aman
+Akash
+Nikhil
+Abhishek
+Ankit
+Varun
+Harsh
+Yash
+Manish
+Siddharth
+Ritik
+Rajat
+Deepak
+Vikram
+Ajay
+Vijay
+Rakesh
+Mukesh
+Suresh
+Mahesh
+Ganesh
+Pranav
+[7memployees.txt[27m[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[KAryan
+:[K[K [KESCESC[KOO[KBB[KDhruv
+:[K[K [KESCESC[KOO[KBB[KKunal
+:[K[K [KESCESC[KOO[KBB[KMohit
+:[K[K [KESCESC[KOO[KAA[K[HMMichael
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSarah
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDavid
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMJohn
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[KAryan
+:[K[K [KESCESC[KOO[KBB[KDhruv
+:[K[K [KESCESC[KOO[KBB[KKunal
+:[K[K [KESCESC[KOO[KBB[KMohit
+:[K[K [KESCESC[KOO[KBB[KNaveen
+:[K[K [KESCESC[KOO[KBB[KPavan
+:[K[K [KESCESC[KOO[KBB[KPrashanth
+:[K[K [KESCESC[KOO[KBB[KAshwin
+:[K[K [KESCESC[KOO[KBB[KLokesh
+:[K[K [KESCESC[KOO[KBB[KTejas
+:[K[K [KESCESC[KOO[KBB[KChandan
+:[K[K [KESCESC[KOO[KBB[KRavi
+:[K[K [KESCESC[KOO[KBB[KSuraj
+:[K[K [KESCESC[KOO[KBB[KTarun
+:[K[K [KESCESC[KOO[KBB[KNitin
+:[K[K [KESCESC[KOO[KBB[KShubham
+:[K[K [KESCESC[KOO[KBB[KAnand
+:[K[K [KESCESC[KOO[KBB[KHemant
+:[K[K [KESCESC[KOO[KBB[KGaurav
+:[K[K [KESCESC[KOO[KBB[KShashank
+:[K[K [KESCESC[KOO[KBB[KNaveen
+:[K[K [KESCESC[KOO[KBB[KRamesh
+:[K[K [KESCESC[KOO[KBB[KDinesh
+:[K[K [KESCESC[KOO[KBB[KBhavesh
+:[K[K [KESCESC[KOO[KBB[KKishore
+:[K[K [KESCESC[KOO[KBB[KNaresh
+:[K[K [KESCESC[KOO[KBB[KRajesh
+:[K[K [KESCESC[KOO[KBB[KSunil
+:[K[K [KESCESC[KOO[KBB[KKapil
+:[K[K [KESCESC[KOO[KBB[KUday
+:[K[K [KESCESC[KOO[KBB[KVinay
+:[K[K [KESCESC[KOO[KBB[KSanjay
+:[K[K [KESCESC[KOO[KBB[KRohit
+:[K[K [KESCESC[KOO[KBB[KAnil
+:[K[K [KESCESC[KOO[KBB[KBharat
+:[K[K [KESCESC[KOO[KBB[KDev
+:[K[K [KESCESC[KOO[KBB[KEshwar
+:[K[K [KESCESC[KOO[KBB[KFarhan
+:[K[K [KESCESC[KOO[KBB[KGopal
+:[K[K [KESCESC[KOO[KBB[KHitesh
+:[K[K [KESCESC[KOO[KBB[KIshan
+:[K[K [KESCESC[KOO[KBB[KJatin
+:[K[K [KESCESC[KOO[KBB[KKishan
+:[K[K [KESCESC[KOO[KBB[KLalit
+:[K[K [KESCESC[KOO[KBB[KMadhav
+:[K[K [KESCESC[KOO[KBB[KNilesh
+:[K[K [KESCESC[KOO[KBB[KOmkar
+:[K[K [KESCESC[KOO[KBB[KParth
+:[K[K [KESCESC[KOO[KBB[KQasim
+:[K[K [KESCESC[KOO[KBB[KRaghu
+:[K[K [KESCESC[KOO[KBB[KSachin
+:[K[K [KESCESC[KOO[KBB[KTanmay
+:[K[K [KESCESC[KOO[KBB[KUmesh
+:[K[K [KESCESC[KOO[KBB[KVaibhav
+:[K[K [KESCESC[KOO[KBB[KWasim
+:[K[K [KESCESC[KOO[KBB[KYogesh
+:[K[K [KESCESC[KOO[KBB[KZubin
+:[K[K [KESCESC[KOO[KBB[KAlok
+:[K[K [KESCESC[KOO[KBB[KBhuvan
+:[K[K [KESCESC[KOO[KBB[KChetan
+:[K[K [KESCESC[KOO[KBB[KDarshan
+:[K[K [KESCESC[KOO[KBB[KEshan
+:[K[K [KESCESC[KOO[KBB[KFiroz
+:[K[K [KESCESC[KOO[KBB[KGirish
+:[K[K [KESCESC[KOO[KBB[KHemal
+:[K[K [KESCESC[KOO[KBB[KIndrajit
+:[K[K [KESCESC[KOO[KBB[KJay
+:[K[K [KESCESC[KOO[KBB[KKartik
+:[K[K [KESCESC[KOO[KBB[KLaksh
+:[K[K [KESCESC[KOO[KBB[KManav
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HMUday
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKapil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSunil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRajesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNaresh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKishore
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMBhavesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDinesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRamesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNaveen
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMShashank
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMGaurav
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMHemant
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAnand
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMShubham
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNitin
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMTarun
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSuraj
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRavi
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMChandan
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMTejas
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMLokesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAshwin
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMPrashanth
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMPavan
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNaveen
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMMohit
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKunal
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDhruv
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAryan
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMPranav
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMGanesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMMahesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSuresh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMMukesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRakesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMVijay
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAjay
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMVikram
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDeepak
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRajat
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRitik
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSiddharth
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMManish
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMYash
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMHarsh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMVarun
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAnkit
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAbhishek
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNikhil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAkash
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAman
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKaran
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRahul
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRohan
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKrishna
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSai
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMArjun
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMVihaan
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAditya
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMVivaan
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAarav
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDaniel
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSophia
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRobert
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMEmma
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMMichael
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSarah
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDavid
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMJohn
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K[?1l>[?1049l[23;0;0t[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ more employees.txt 
+[?2004lJohn
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+Aarav
+Vivaan
+Aditya
+Vihaan
+Arjun
+Sai
+Krishna
+Rohan
+Rahul
+Karan
+Aman
+Akash
+Nikhil
+Abhishek
+Ankit
+Varun
+Harsh
+Yash
+Manish
+Siddharth
+Ritik
+Rajat
+Deepak
+Vikram
+Ajay
+Vijay
+Rakesh
+Mukesh
+Suresh
+Mahesh
+Ganesh
+Pranav
+[7m--More--(36%)[27mAryan[K
+[7m--More--(36%)[27mDhruv[K
+[7m--More--(37%)[27mKunal[K
+[7m--More--(38%)[27mMohit[K
+[7m--More--(39%)[27mNaveen[K
+[7m--More--(40%)[27mPavan[K
+[7m--More--(41%)[27mPrashanth[K
+[7m--More--(42%)[27mAshwin[K
+[7m--More--(43%)[27mLokesh[K
+[7m--More--(44%)[27mTejas[K
+[7m--More--(45%)[27mChandan[K
+[7m--More--(46%)[27mRavi[K
+[7m--More--(47%)[27mSuraj[K
+[7m--More--(48%)[27mTarun[K
+[7m--More--(48%)[27mNitin[K
+[7m--More--(49%)[27mShubham[K
+[7m--More--(50%)[27mAnand[K
+[7m--More--(51%)[27mHemant[K
+[7m--More--(52%)[27mGaurav[K
+[7m--More--(53%)[27mShashank[K
+[7m--More--(54%)[27mNaveen[K
+[7m--More--(55%)[27mRamesh[K
+[7m--More--(56%)[27mDinesh[K
+[7m--More--(57%)[27mBhavesh[K
+[7m--More--(58%)[27mKishore[K
+[7m--More--(60%)[27mNaresh[K
+[7m--More--(61%)[27mRajesh[K
+[7m--More--(62%)[27mSunil[K
+[7m--More--(62%)[27mKapil[K
+[7m--More--(63%)[27mUday[K
+[7m--More--(64%)[27mVinay[K
+[7m--More--(65%)[27mSanjay[K
+[7m--More--(66%)[27mRohit[K
+[7m--More--(67%)[27mAnil[K
+[7m--More--(67%)[27mBharat[K
+[7m--More--(68%)[27mDev[K
+[7m--More--(69%)[27mEshwar[K
+[7m--More--(70%)[27mFarhan[K
+[7m--More--(71%)[27mGopal[K
+[7m--More--(72%)[27mHitesh[K
+[7m--More--(73%)[27mIshan[K
+[7m--More--(73%)[27mJatin[K
+[7m--More--(74%)[27mKishan[K
+[7m--More--(75%)[27mLalit[K
+[7m--More--(76%)[27mMadhav[K
+[7m--More--(77%)[27mNilesh[K
+[7m--More--(78%)[27mOmkar[K
+[7m--More--(79%)[27mParth[K
+[7m--More--(80%)[27m[K[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ less employees.txt 
+[?2004l[?1049h[22;0;0t[41;1H[?1h=John
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+Aarav
+Vivaan
+Aditya
+Vihaan
+Arjun
+Sai
+Krishna
+Rohan
+Rahul
+Karan
+Aman
+Akash
+Nikhil
+Abhishek
+Ankit
+Varun
+Harsh
+Yash
+Manish
+Siddharth
+Ritik
+Rajat
+Deepak
+Vikram
+Ajay
+Vijay
+Rakesh
+Mukesh
+Suresh
+Mahesh
+Ganesh
+Pranav
+[7memployees.txt[27m[K[K [KESCESC[KOO[KBB[KAryan
+:[K[K [KESCESC[KOO[KBB[KDhruv
+:[K[K [KESCESC[KOO[KBB[KKunal
+:[K[K [KESCESC[KOO[KBB[KMohit
+:[K[K [KESCESC[KOO[KBB[KNaveen
+:[K[K [KESCESC[KOO[KBB[KPavan
+:[K[K [KESCESC[KOO[KBB[KPrashanth
+:[K[K [KESCESC[KOO[KBB[KAshwin
+:[K[K [KESCESC[KOO[KBB[KLokesh
+:[K[K [KESCESC[KOO[KBB[KTejas
+:[K[K [KESCESC[KOO[KBB[KChandan
+:[K[K [KESCESC[KOO[KBB[KRavi
+:[K[K [KESCESC[KOO[KBB[KSuraj
+:[K[K [KESCESC[KOO[KBB[KTarun
+:[K[K [KESCESC[KOO[KBB[KNitin
+:[K[K [KESCESC[KOO[KBB[KShubham
+:[K[K [KESCESC[KOO[KBB[KAnand
+:[K[K [KESCESC[KOO[KBB[KHemant
+:[K[K [KESCESC[KOO[KBB[KGaurav
+:[K[K [KESCESC[KOO[KBB[KShashank
+:[K[K [KESCESC[KOO[KBB[KNaveen
+:[K[K [KESCESC[KOO[KBB[KRamesh
+:[K[K [KESCESC[KOO[KBB[KDinesh
+:[K[K [KESCESC[KOO[KBB[KBhavesh
+:[K[K [KESCESC[KOO[KBB[KKishore
+:[K[K [KESCESC[KOO[KBB[KNaresh
+:[K[K [KESCESC[KOO[KBB[KRajesh
+:[K[K [KESCESC[KOO[KBB[KSunil
+:[K[K [KESCESC[KOO[KBB[KKapil
+:[K[K [KESCESC[KOO[KBB[KUday
+:[K[K [KESCESC[KOO[KBB[KVinay
+:[K[K [KESCESC[KOO[KBB[KSanjay
+:[K[K [KESCESC[KOO[KBB[KRohit
+:[K[K [KESCESC[KOO[KBB[KAnil
+:[K[K [KESCESC[KOO[KBB[KBharat
+:[K[K [KESCESC[KOO[KBB[KDev
+:[K[K [KESCESC[KOO[KBB[KEshwar
+:[K[K [KESCESC[KOO[KBB[KFarhan
+:[K[K [KESCESC[KOO[KBB[KGopal
+:[K[K [KESCESC[KOO[KBB[KHitesh
+:[K[K [KESCESC[KOO[KBB[KIshan
+:[K[K [KESCESC[KOO[KBB[KJatin
+:[K[K [KESCESC[KOO[KBB[KKishan
+:[K[K [KESCESC[KOO[KBB[KLalit
+:[K[K [KESCESC[KOO[KBB[KMadhav
+:[K[K [KESCESC[KOO[KBB[KNilesh
+:[K[K [KESCESC[KOO[KBB[KOmkar
+:[K[K [KESCESC[KOO[KBB[KParth
+:[K[K [KESCESC[KOO[KBB[KQasim
+:[K[K [KESCESC[KOO[KBB[KRaghu
+:[K[K [KESCESC[KOO[KBB[KSachin
+:[K[K [KESCESC[KOO[KBB[KTanmay
+:[K[K [KESCESC[KOO[KBB[KUmesh
+:[K[K [KESCESC[KOO[KBB[KVaibhav
+:[K[K [KESCESC[KOO[KBB[KWasim
+:[K[K [KESCESC[KOO[KBB[KYogesh
+:[K[K [KESCESC[KOO[KBB[KZubin
+:[K[K [KESCESC[KOO[KBB[KAlok
+:[K[K [KESCESC[KOO[KBB[KBhuvan
+:[K[K [KESCESC[KOO[KBB[KChetan
+:[K[K [KESCESC[KOO[KBB[KDarshan
+:[K[K [KESCESC[KOO[KBB[KEshan
+:[K[K [KESCESC[KOO[KBB[KFiroz
+:[K[K [KESCESC[KOO[KBB[KGirish
+:[K[K [KESCESC[KOO[KBB[KHemal
+:[K[K [KESCESC[KOO[KBB[KIndrajit
+:[K[K [KESCESC[KOO[KBB[KJay
+:[K[K [KESCESC[KOO[KBB[KKartik
+:[K[K [KESCESC[KOO[KBB[KLaksh
+:[K[K [KESCESC[KOO[KBB[KManav
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HMUday
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKapil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSunil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRajesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNaresh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKishore
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMBhavesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDinesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRamesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNaveen
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMShashank
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMGaurav
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMHemant
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAnand
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMShubham
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNitin
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMTarun
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSuraj
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRavi
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMChandan
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMTejas
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMLokesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAshwin
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMPrashanth
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMPavan
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNaveen
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMMohit
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKunal
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDhruv
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAryan
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMPranav
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMGanesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMMahesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSuresh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMMukesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRakesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMVijay
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAjay
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMVikram
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDeepak
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRajat
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRitik
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSiddharth
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMManish
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMYash
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMHarsh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMVarun
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAnkit
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAbhishek
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNikhil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAkash
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAman
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKaran
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRahul
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRohan
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKrishna
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSai
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMArjun
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMVihaan
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAditya
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMVivaan
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMAarav
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDaniel
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSophia
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRobert
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMEmma
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMMichael
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSarah
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMDavid
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMJohn
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[KAryan
+:[K[K [KESCESC[KOO[KBB[KDhruv
+:[K[K [KESCESC[KOO[KBB[KKunal
+:[K[K [KESCESC[KOO[KBB[KMohit
+:[K[K [KESCESC[KOO[KBB[KNaveen
+:[K[K [KESCESC[KOO[KBB[KPavan
+:[K[K [KESCESC[KOO[KBB[KPrashanth
+:[K[K [KESCESC[KOO[KBB[KAshwin
+:[K[K [KESCESC[KOO[KBB[KLokesh
+:[K[K [KESCESC[KOO[KBB[KTejas
+:[K[K [KESCESC[KOO[KBB[KChandan
+:[K[K [KESCESC[KOO[KBB[KRavi
+:[K[K [KESCESC[KOO[KBB[KSuraj
+:[K[K [KESCESC[KOO[KBB[KTarun
+:[K[K [KESCESC[KOO[KBB[KNitin
+:[K[K [KESCESC[KOO[KBB[KShubham
+:[K[K [KESCESC[KOO[KBB[KAnand
+:[K[K [KESCESC[KOO[KBB[KHemant
+:[K[K [KESCESC[KOO[KBB[KGaurav
+:[K[K [KESCESC[KOO[KBB[KShashank
+:[K[K [KESCESC[KOO[KBB[KNaveen
+:[K[K [KESCESC[KOO[KBB[KRamesh
+:[K[K [KESCESC[KOO[KBB[KDinesh
+:[K[K [KESCESC[KOO[KBB[KBhavesh
+:[K[K [KESCESC[KOO[KBB[KKishore
+:[K[K [KESCESC[KOO[KBB[KNaresh
+:[K[K [KESCESC[KOO[KBB[KRajesh
+:[K[K [KESCESC[KOO[KBB[KSunil
+:[K[K [KESCESC[KOO[KBB[KKapil
+:[K[K [KESCESC[KOO[KBB[KUday
+:[K[K [KESCESC[KOO[KBB[KVinay
+:[K[K [KESCESC[KOO[KBB[KSanjay
+:[K[K [KESCESC[KOO[KBB[KRohit
+:[K[K [KESCESC[KOO[KBB[KAnil
+:[K[K [KESCESC[KOO[KBB[KBharat
+:[K[K [KESCESC[KOO[KBB[KDev
+:[K[K [KESCESC[KOO[KBB[KEshwar
+:[K[K [KESCESC[KOO[KBB[KFarhan
+:[K[K [KESCESC[KOO[KBB[KGopal
+:[K[K [KESCESC[KOO[KBB[KHitesh
+:[K[K [KESCESC[KOO[KBB[KIshan
+:[K[K [KESCESC[KOO[KBB[KJatin
+:[K[K [KESCESC[KOO[KBB[KKishan
+:[K[K [KESCESC[KOO[KBB[KLalit
+:[K[K [KESCESC[KOO[KBB[KMadhav
+:[K[K [KESCESC[KOO[KBB[KNilesh
+:[K[K [KESCESC[KOO[KBB[KOmkar
+:[K[K [KESCESC[KOO[KBB[KParth
+:[K[K [KESCESC[KOO[KBB[KQasim
+:[K[K [KESCESC[KOO[KBB[KRaghu
+:[K[K [KESCESC[KOO[KBB[KSachin
+:[K[K [KESCESC[KOO[KBB[KTanmay
+:[K[K [KESCESC[KOO[KBB[KUmesh
+:[K[K [KESCESC[KOO[KBB[KVaibhav
+:[K[K [KESCESC[KOO[KBB[KWasim
+:[K[K [KESCESC[KOO[KBB[KYogesh
+:[K[K [KESCESC[KOO[KBB[KZubin
+:[K[K [KESCESC[KOO[KBB[KAlok
+:[K[K [KESCESC[KOO[KBB[KBhuvan
+:[K[K [KESCESC[KOO[KBB[KChetan
+:[K[K [KESCESC[KOO[KBB[KDarshan
+:[K[K [KESCESC[KOO[KBB[KEshan
+:[K[K [KESCESC[KOO[KBB[KFiroz
+:[K[K [KESCESC[KOO[KBB[KGirish
+:[K[K [KESCESC[KOO[KBB[KHemal
+:[K[K [KESCESC[KOO[KBB[KIndrajit
+:[K[K [KESCESC[KOO[KBB[KJay
+:[K[K [KESCESC[KOO[KBB[KKartik
+:[K[K [KESCESC[KOO[KBB[KLaksh
+:[K[K [KESCESC[KOO[KBB[KManav
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HMUday
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKapil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSunil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRajesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNaresh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKishore
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMBhavesh
+[41;1H[K:[K[K [KESCESC[KOO[KBB[KGirish
+:[K[K [KESCESC[KOO[KBB[KHemal
+:[K[K [KESCESC[KOO[KBB[KIndrajit
+:[K[K [KESCESC[KOO[KBB[KJay
+:[K[K [KESCESC[KOO[KBB[KKartik
+:[K[K [KESCESC[KOO[KAA[K[HMSunil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRajesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNaresh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKishore
+[41;1H[K:[K[K [KESCESC[KOO[KBB[KHemal
+:[K[K [KESCESC[KOO[KBB[KIndrajit
+:[K[K [KESCESC[KOO[KBB[KJay
+:[K[K [KESCESC[KOO[KBB[KKartik
+:[K[K [KESCESC[KOO[KAA[K[HMSunil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRajesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNaresh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKishore
+[41;1H[K:[K[K [KESCESC[KOO[KBB[KHemal
+:[K[K [KESCESC[KOO[KBB[KIndrajit
+:[K[K [KESCESC[KOO[KBB[KJay
+:[K[K [KESCESC[KOO[KBB[KKartik
+:[K[K [KESCESC[KOO[KAA[K[HMSunil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRajesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNaresh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKishore
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMBhavesh
+[41;1H[K:[K[K [KESCESC[KOO[KBB[KGirish
+:[K[K [KESCESC[KOO[KBB[KHemal
+:[K[K [KESCESC[KOO[KBB[KIndrajit
+:[K[K [KESCESC[KOO[KBB[KJay
+:[K[K [KESCESC[KOO[KBB[KKartik
+:[K[K [KESCESC[KOO[KBB[KLaksh
+:[K[K [KESCESC[KOO[KAA[K[HMKapil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSunil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRajesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNaresh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKishore
+[41;1H[K:[K[K [KESCESC[KOO[KBB[KHemal
+:[K[K [KESCESC[KOO[KBB[KIndrajit
+:[K[K [KESCESC[KOO[KBB[KJay
+:[K[K [KESCESC[KOO[KBB[KKartik
+:[K[K [KESCESC[KOO[KBB[KLaksh
+:[K[K [KESCESC[KOO[KAA[K[HMKapil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMSunil
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMRajesh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMNaresh
+[41;1H[K:[K[K [KESCESC[KOO[KAA[K[HMKishore
+[41;1H[K:[K[K [KESCESC[KOO[KBB[KHemal
+:[K[K [KESCESC[KOO[KBB[KIndrajit
+:[K[K [KESCESC[KOO[KBB[KJay
+:[K[K [KESCESC[KOO[KBB[KKartik
+:[K[K [KESCESC[KOO[KBB[KLaksh
+:[K[K [KESCESC[KOO[KBB[KManav
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat empoly[K[K[Kloyees.txt notes.txt > company. y[Ktxt
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ ls
+[?2004lbackup.txt   department.txt  employees2.txt                    notes.txt
+company.txt  employees.txt   employees2.txtioqjwdsqiawdqiakud
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat company.txt 
+[?2004lJohn
+David
+Sarah
+Michael
+Emma
+Robert
+Sophia
+Daniel
+Aarav
+Vivaan
+Aditya
+Vihaan
+Arjun
+Sai
+Krishna
+Rohan
+Rahul
+Karan
+Aman
+Akash
+Nikhil
+Abhishek
+Ankit
+Varun
+Harsh
+Yash
+Manish
+Siddharth
+Ritik
+Rajat
+Deepak
+Vikram
+Ajay
+Vijay
+Rakesh
+Mukesh
+Suresh
+Mahesh
+Ganesh
+Pranav
+Aryan
+Dhruv
+Kunal
+Mohit
+Naveen
+Pavan
+Prashanth
+Ashwin
+Lokesh
+Tejas
+Chandan
+Ravi
+Suraj
+Tarun
+Nitin
+Shubham
+Anand
+Hemant
+Gaurav
+Shashank
+Naveen
+Ramesh
+Dinesh
+Bhavesh
+Kishore
+Naresh
+Rajesh
+Sunil
+Kapil
+Uday
+Vinay
+Sanjay
+Rohit
+Anil
+Bharat
+Dev
+Eshwar
+Farhan
+Gopal
+Hitesh
+Ishan
+Jatin
+Kishan
+Lalit
+Madhav
+Nilesh
+Omkar
+Parth
+Qasim
+Raghu
+Sachin
+Tanmay
+Umesh
+Vaibhav
+Wasim
+Yogesh
+Zubin
+Alok
+Bhuvan
+Chetan
+Darshan
+Eshan
+Firoz
+Girish
+Hemal
+Indrajit
+Jay
+Kartik
+Laksh
+Manav
+Linux is powerful Linux is flexible Linux is secure Linux is reliable. Learning Linux requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity Linux Linux Linux practice practice practice.Linux is powerful Linux is flexible Linux is secure Linux is reliable. Learning Linux requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity Linux Linux Linux practice practice practice.Linux is powerful Linux is flexible Linux is secure Linux is reliable. Learning Linux requires practice practice practice every day. Commands commands commands help users understand the operating system. Files directories permissions users groups terminals shells scripting automation networking security cybersecurity Linux Linux Linux practice practice practice.Cybersecurity cybersecurity cybersecurity depends on knowledge knowledge knowledge and continuous learning learning learning. Wireshark Wireshark captures packets packets packets. Nmap scans networks networks networks. Burp Suite tests web applications web applications web applications. Linux Linux Linux is the foundation foundation foundation for ethical hacking penetration testing security analysis and system administration.Practice makes progress practice makes confidence practice makes experience. Read files write files copy files move files rename files delete files create directories list directories change directories search files search text compare files and repeat repeat repeat. Learn Linux every day every day every day because consistency consistency consistency builds strong cybersecurity skills skills skills.Linux is one of the most important operating systems used in cybersecurity.
+
+Learning Linux commands improves productivity and makes penetration testing easier.
+
+Most security tools such as Nmap, Wireshark, Metasploit, Burp Suite, and Aircrack-ng run efficiently on Linux.
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ touch practice[K[Kce/[K.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ nano practice.txt 
+[?2004l[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;32H(B[0;7m[ Reading... ](B[m[39;31H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                   practice.txt                             [1;75H(B[m[40d(B[0;7m^G(B[m Help[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[40;61H(B[0;7m^T(B[m Execute[41d(B[0;7m^X(B[m Exit[41;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[39d[K[1;49H(B[0;7m*[75G(B[m[2dTanmay[3dUmesh[4dVaibhav[5dWasim[6dYogesh[7dZubin[8dAlok[9dBhuvan[10dChetan[11dDarshan[12dEshan[13dFiroz[14dGirish[15dHemal[16dIndrajit[17dJay[18dKartik[19dLaksh[20dManav[?12l[?25h[?25l[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[K[41;2H(B[0;7mC(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[K[40;70H[A(B[0;7mWrite to File: practice.txt                                                 [39;28H(B[m[?12l[?25h[?25l   [1K (B[0;7m[ Writing... ](B[m[K[1;49H(B[0;7m [75G(B[m[39;29H(B[0;7m[ Wrote 102 lines ](B[m[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute[41;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[20;6H[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat practice.txt 
+[?2004lAarav
+Vivaan
+Aditya
+Vihaan
+Arjun
+Sai
+Krishna
+Rohan
+Rahul
+Karan
+Aman
+Akash
+Nikhil
+Abhishek
+Ankit
+Varun
+Harsh
+Yash
+Manish
+Siddharth
+Ritik
+Rajat
+Deepak
+Vikram
+Ajay
+Vijay
+Rakesh
+Mukesh
+Suresh
+Mahesh
+Ganesh
+Pranav
+Aryan
+Dhruv
+Kunal
+Mohit
+Naveen
+Pavan
+Prashanth
+Ashwin
+Lokesh
+Tejas
+Chandan
+Ravi
+Suraj
+Tarun
+Nitin
+Shubham
+Anand
+Hemant
+Gaurav
+Shashank
+Naveen
+Ramesh
+Dinesh
+Bhavesh
+Kishore
+Naresh
+Rajesh
+Sunil
+Kapil
+Uday
+Vinay
+Sanjay
+Rohit
+Anil
+Bharat
+Dev
+Eshwar
+Farhan
+Gopal
+Hitesh
+Ishan
+Jatin
+Kishan
+Lalit
+Madhav
+Nilesh
+Omkar
+Parth
+Qasim
+Raghu
+Sachin
+Tanmay
+Umesh
+Vaibhav
+Wasim
+Yogesh
+Zubin
+Alok
+Bhuvan
+Chetan
+Darshan
+Eshan
+Firoz
+Girish
+Hemal
+Indrajit
+Jay
+Kartik
+Laksh
+Manav
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ wc -l practice.txt 
+[?2004l102 practice.txt
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat -n c[Kpra[Kactice.txt 
+[?2004l     1	Aarav
+     2	Vivaan
+     3	Aditya
+     4	Vihaan
+     5	Arjun
+     6	Sai
+     7	Krishna
+     8	Rohan
+     9	Rahul
+    10	Karan
+    11	Aman
+    12	Akash
+    13	Nikhil
+    14	Abhishek
+    15	Ankit
+    16	Varun
+    17	Harsh
+    18	Yash
+    19	Manish
+    20	Siddharth
+    21	Ritik
+    22	Rajat
+    23	Deepak
+    24	Vikram
+    25	Ajay
+    26	Vijay
+    27	Rakesh
+    28	Mukesh
+    29	Suresh
+    30	Mahesh
+    31	Ganesh
+    32	Pranav
+    33	Aryan
+    34	Dhruv
+    35	Kunal
+    36	Mohit
+    37	Naveen
+    38	Pavan
+    39	Prashanth
+    40	Ashwin
+    41	Lokesh
+    42	Tejas
+    43	Chandan
+    44	Ravi
+    45	Suraj
+    46	Tarun
+    47	Nitin
+    48	Shubham
+    49	Anand
+    50	Hemant
+    51	Gaurav
+    52	Shashank
+    53	Naveen
+    54	Ramesh
+    55	Dinesh
+    56	Bhavesh
+    57	Kishore
+    58	Naresh
+    59	Rajesh
+    60	Sunil
+    61	Kapil
+    62	Uday
+    63	Vinay
+    64	Sanjay
+    65	Rohit
+    66	Anil
+    67	Bharat
+    68	Dev
+    69	Eshwar
+    70	Farhan
+    71	Gopal
+    72	Hitesh
+    73	Ishan
+    74	Jatin
+    75	Kishan
+    76	Lalit
+    77	Madhav
+    78	Nilesh
+    79	Omkar
+    80	Parth
+    81	Qasim
+    82	Raghu
+    83	Sachin
+    84	Tanmay
+    85	Umesh
+    86	Vaibhav
+    87	Wasim
+    88	Yogesh
+    89	Zubin
+    90	Alok
+    91	Bhuvan
+    92	Chetan
+    93	Darshan
+    94	Eshan
+    95	Firoz
+    96	Girish
+    97	Hemal
+    98	Indrajit
+    99	Jay
+   100	Kartik
+   101	Laksh
+   102	Manav
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep prashanth practice.txt 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep prashanth practice.txt [1P[1@P
+[?2004l[01;31m[KPrashanth[m[K
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat [K[K[K[Kgrep "Prashanth" employees.txt > prash anth.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt > prashan[1P[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt > prashant[1P[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt > prashanth[1P[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt > prashanth.[1P[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt > prashanth.t[1P[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt > prashanth.tx[1Pt[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt > prashanth.txt[K[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt > prashanth.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CP.txt > prashanth.txt [A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr.txt > prashanth.txt[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca.txt > prashanth.txt[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc.txt > prashanth.txt[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct.txt > prashanth.[1@t[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci.txt > prashanth[1@.[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc.txt > prashant[1@h[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce.txt > prashan[1@t[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C
+[?2004lgrep: Practice.txt: No such file or directory
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep "Prashanth" Practice.txt > prashanth.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cractice.txt > prashant[1P[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpractice.txt > prashan[1@t[A]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat pra[K[K[KP[KPrashn[K[Khanth.txt
+[?2004lcat: Prashanth.txt: No such file or directory
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat Prashanth.txtgrep "Prashanth" practice.txt > prashanth.txtll[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[?2004lbackup.txt      employees.txt                     notes.txt
+company.txt     employees2.txt                    practice.txt
+department.txt  employees2.txtioqjwdsqiawdqiakud  prashanth.txt
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat prashanth.txt 
+[?2004lPrashanth
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ diff practice.txt pra[Kashanth.txt 
+[?2004l1,38d0
+< Aarav
+< Vivaan
+< Aditya
+< Vihaan
+< Arjun
+< Sai
+< Krishna
+< Rohan
+< Rahul
+< Karan
+< Aman
+< Akash
+< Nikhil
+< Abhishek
+< Ankit
+< Varun
+< Harsh
+< Yash
+< Manish
+< Siddharth
+< Ritik
+< Rajat
+< Deepak
+< Vikram
+< Ajay
+< Vijay
+< Rakesh
+< Mukesh
+< Suresh
+< Mahesh
+< Ganesh
+< Pranav
+< Aryan
+< Dhruv
+< Kunal
+< Mohit
+< Naveen
+< Pavan
+40,102d1
+< Ashwin
+< Lokesh
+< Tejas
+< Chandan
+< Ravi
+< Suraj
+< Tarun
+< Nitin
+< Shubham
+< Anand
+< Hemant
+< Gaurav
+< Shashank
+< Naveen
+< Ramesh
+< Dinesh
+< Bhavesh
+< Kishore
+< Naresh
+< Rajesh
+< Sunil
+< Kapil
+< Uday
+< Vinay
+< Sanjay
+< Rohit
+< Anil
+< Bharat
+< Dev
+< Eshwar
+< Farhan
+< Gopal
+< Hitesh
+< Ishan
+< Jatin
+< Kishan
+< Lalit
+< Madhav
+< Nilesh
+< Omkar
+< Parth
+< Qasim
+< Raghu
+< Sachin
+< Tanmay
+< Umesh
+< Vaibhav
+< Wasim
+< Yogesh
+< Zubin
+< Alok
+< Bhuvan
+< Chetan
+< Darshan
+< Eshan
+< Firoz
+< Girish
+< Hemal
+< Indrajit
+< Jay
+< Kartik
+< Laksh
+< Manav
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ wc -l employees.txt 
+[?2004l110 employees.txt
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ wc -l pra
+practice.txt   prashanth.txt  
+]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ wc -l pra
+practice.txt   prashanth.txt  
+]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ wc -l praemployees.txt pra[Kshanth.txt
+[?2004l1 prashanth.txt
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ ls
+[?2004lbackup.txt      employees.txt                     notes.txt
+company.txt     employees2.txt                    practice.txt
+department.txt  employees2.txtioqjwdsqiawdqiakud  prashanth.txt
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep -n "p[1@i[C[C[Crashanth" employees.txt 
+[?2004l[32m[K47[m[K[36m[K:[m[K[01;31m[KPrashanth[m[K
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat -n employees.txt 
+[?2004l     1	John
+     2	David
+     3	Sarah
+     4	Michael
+     5	Emma
+     6	Robert
+     7	Sophia
+     8	Daniel
+     9	Aarav
+    10	Vivaan
+    11	Aditya
+    12	Vihaan
+    13	Arjun
+    14	Sai
+    15	Krishna
+    16	Rohan
+    17	Rahul
+    18	Karan
+    19	Aman
+    20	Akash
+    21	Nikhil
+    22	Abhishek
+    23	Ankit
+    24	Varun
+    25	Harsh
+    26	Yash
+    27	Manish
+    28	Siddharth
+    29	Ritik
+    30	Rajat
+    31	Deepak
+    32	Vikram
+    33	Ajay
+    34	Vijay
+    35	Rakesh
+    36	Mukesh
+    37	Suresh
+    38	Mahesh
+    39	Ganesh
+    40	Pranav
+    41	Aryan
+    42	Dhruv
+    43	Kunal
+    44	Mohit
+    45	Naveen
+    46	Pavan
+    47	Prashanth
+    48	Ashwin
+    49	Lokesh
+    50	Tejas
+    51	Chandan
+    52	Ravi
+    53	Suraj
+    54	Tarun
+    55	Nitin
+    56	Shubham
+    57	Anand
+    58	Hemant
+    59	Gaurav
+    60	Shashank
+    61	Naveen
+    62	Ramesh
+    63	Dinesh
+    64	Bhavesh
+    65	Kishore
+    66	Naresh
+    67	Rajesh
+    68	Sunil
+    69	Kapil
+    70	Uday
+    71	Vinay
+    72	Sanjay
+    73	Rohit
+    74	Anil
+    75	Bharat
+    76	Dev
+    77	Eshwar
+    78	Farhan
+    79	Gopal
+    80	Hitesh
+    81	Ishan
+    82	Jatin
+    83	Kishan
+    84	Lalit
+    85	Madhav
+    86	Nilesh
+    87	Omkar
+    88	Parth
+    89	Qasim
+    90	Raghu
+    91	Sachin
+    92	Tanmay
+    93	Umesh
+    94	Vaibhav
+    95	Wasim
+    96	Yogesh
+    97	Zubin
+    98	Alok
+    99	Bhuvan
+   100	Chetan
+   101	Darshan
+   102	Eshan
+   103	Firoz
+   104	Girish
+   105	Hemal
+   106	Indrajit
+   107	Jay
+   108	Kartik
+   109	Laksh
+   110	Manav
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ echo "Prashanth Poshettiwar"
+[?2004lPrashanth Poshettiwar
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ echio[K[Ko "Ptashanth [K[K[K[K[K[K[K[K[Krashanth Poshettiwar" > prashanth.txt 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat prashanth.txt 
+[?2004lPrashanth Poshettiwar
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ echo "Pramod Poshettiwar" >> pra
+practice.txt   prashanth.txt  
+]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ echo "Pramod Poshettiwar" >> pra[14Pcat prashanth.txt echo "Pramod Poshettiwar" >> prashanth.txt 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ cat prashanth.txt 
+[?2004lPrashanth Poshettiwar
+Pramod Poshettiwar
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [K]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [K]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [K]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [K]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [K]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [K]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [K]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [K]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ [K]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ p[Kgrep "Prashanth" Prac[K[K[K[Kpractice.txt 
+[?2004l[01;31m[KPrashanth[m[K
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ gt[Krep -i "prashanTH" Prac[K[K[K[Kpractice.txt 
+[?2004l[01;31m[KPrashanth[m[K
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep -n "Prashanth" practice.txt 
+[?2004l[32m[K39[m[K[36m[K:[m[K[01;31m[KPrashanth[m[K
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ nano practice.txt 
+[?2004l[?2004h[?1049h[22;0;0t[1;41r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[39;32H(B[0;7m[ Reading... ](B[m[39;30H(B[0;7m[ Read 102 lines ](B[m[H(B[0;7m  GNU nano 8.7.1                   practice.txt                             [1;75H(B[m[40d(B[0;7m^G(B[m Help[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[40;61H(B[0;7m^T(B[m Execute[41d(B[0;7m^X(B[m Exit[41;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify[2dAarav[3dVivaan[4dAditya[5dVihaan[6dArjun[7dSai[8dKrishna[9dRohan[10dRahul[11dKaran[12dAman[13dAkash[14dNikhil[15dAbhishek[16dAnkit[17dVarun[18dHarsh[19dYash[20dManish[21dSiddharth[22dRitik[23dRajat[24dDeepak[25dVikram[26dAjay[27dVijay[28dRakesh[29dMukesh[30dSuresh[31dMahesh[32dGanesh[33dPranav[34dAryan[35dDhruv[36dKunal[37dMohit[38dNaveen[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[39d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[1;49H(B[0;7m*[75G(B[m[33;38r[33;1HM[1;41r[34;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25hP[?25l[?12l[?25hr[?25l[?12l[?25ha[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l7[34;38r8[34dM[1;41r[34;1H[?12l[?25h[?25l[34;39r[39;1H
+[1;41r[38;1HMohit[33;10H[?12l[?25h[?25l[?12l[?25h[34d[?25l[?12l[?25hP[?25l[?12l[?25hr[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25ha[?25l[?12l[?25hv[?25l[?12l[?25h[35d[?25l[?12l[?25hA[?25l[?12l[?25hr[?25l[?12l[?25hy[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25h[36d[?25l[?12l[?25hD[?25l[?12l[?25hh[?25l[?12l[?25hr[?25l[?12l[?25h[37d[?25l[?12l[?25h[38d[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HNaveen[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HPavan[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HPrashanthPra[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HAshwin[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HLokesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HTejas[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HChandan[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HRavi[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HSuraj[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HTarun[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HNitin[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HShubham[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HAnand[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HHemant[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HGaurav[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HShashankSha[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HNaveen[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HRamesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HDinesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HBhavesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HKishore[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HNaresh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HRajesh[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HSunil[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HKapil[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HUday[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HVinay[?25l[?12l[?25h7[2;39r8[39d
+[1;41r[38;1HSanjay[?25l[40;16H(B[0;7mM-D(B[m DOS Format (B[0;7mM-A(B[m Append     (B[0;7mM-B(B[m Backup File(B[0;7m^T(B[m Browse[K[41;2H(B[0;7mC(B[m Cancel[16G(B[0;7mM-M(B[m Mac Format (B[0;7mM-P(B[m Prepend    (B[0;7m^Q(B[m Discard buffer[K[40;70H[A(B[0;7mWrite to File: practice.txt                                                 [39;28H(B[m[?12l[?25h[?25l   [1K (B[0;7m[ Writing... ](B[m[K[1;49H(B[0;7m [75G(B[m[39;29H(B[0;7m[ Wrote 103 lines ](B[m[40;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute[41;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify[?12l[?25h[38;4H[?25l[39d[J[41d[?12l[?25h[41;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep -n practice.txt 
+[?2004l^[[A^[[A^C
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep -n practice.txt [1@"[1@P[1@r[1@a[1@s[1@h[1@a[1@n[1@t[1@h[1@"[1@ 
+[?2004l[32m[K32[m[K[36m[K:[m[K[01;31m[KPrashanth[m[K
+[32m[K40[m[K[36m[K:[m[K[01;31m[KPrashanth[m[K
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep -v |"Prashanth"[1P[C[C[C[C[C[C[C[C[C[C[C Practice.
+[?2004lgrep: Practice.: No such file or directory
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep -v "Prashanth" Practice.[1P[1@p[C[C[C[C[C[C[C[Ctxt 
+[?2004lAarav
+Vivaan
+Aditya
+Vihaan
+Arjun
+Sai
+Krishna
+Rohan
+Rahul
+Karan
+Aman
+Akash
+Nikhil
+Abhishek
+Ankit
+Varun
+Harsh
+Yash
+Manish
+Siddharth
+Ritik
+Rajat
+Deepak
+Vikram
+Ajay
+Vijay
+Rakesh
+Mukesh
+Suresh
+Mahesh
+Ganesh
+Pranav
+Aryan
+Dhruv
+Kunal
+Mohit
+Naveen
+Pavan
+Ashwin
+Lokesh
+Tejas
+Chandan
+Ravi
+Suraj
+Tarun
+Nitin
+Shubham
+Anand
+Hemant
+Gaurav
+Shashank
+Naveen
+Ramesh
+Dinesh
+Bhavesh
+Kishore
+Naresh
+Rajesh
+Sunil
+Kapil
+Uday
+Vinay
+Sanjay
+Rohit
+Anil
+Bharat
+Dev
+Eshwar
+Farhan
+Gopal
+Hitesh
+Ishan
+Jatin
+Kishan
+Lalit
+Madhav
+Nilesh
+Omkar
+Parth
+Qasim
+Raghu
+Sachin
+Tanmay
+Umesh
+Vaibhav
+Wasim
+Yogesh
+Zubin
+Alok
+Bhuvan
+Chetan
+Darshan
+Eshan
+Firoz
+Girish
+Hemal
+Indrajit
+Jay
+Kartik
+Laksh
+Manav
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ grep -c "Prashanth" [[Kpractice.txt 
+[?2004l2
+[?2004h]0;prashanth@linux-labs: ~/Cybersecurity[01;32mprashanth@linux-labs[00m:[01;34m~/Cybersecurity[00m$ exit
+[?2004lexit
+
+Script done on 2026-07-08 13:50:38+05:30 [COMMAND_EXIT_CODE="0"]
