@@ -1,0 +1,38 @@
+Script started on 2026-07-15 09:39:18+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls -l etc shadow[1P[1@/[1@/
+[?2004l-rw-r----- 1 root shadow 1089 Jul  4 11:10 /etc/shadow
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ [K]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls -l /etc/s[Ks[K[K[K[K[Kusr/bin/paww[K[Ksswd
+[?2004l-rwsr-xr-x 1 root root 93640 Feb  3 02:15 [0m[37;41m/usr/bin/passwd[0m
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ touch demo.[K[K[K[K[K[K[K[K[K[K[Kcd =[K[K[K[Kls
+[?2004lLab-05-Terminal-Session  [0m[01;34mLinux-Labs-05[0m  lab-05-Terminal-Session-2.txt
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd Linux-Labs-05/
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls
+[?2004l[0m[01;34mScript[0m     file3.txt  [01;32mnotes.txt[0m     test2.txt  test5.txt
+file1.txt  file4.txt  password.txt  test3.txt
+file2.txt  file5.txt  test1.txt     test4.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ touch demo.sh
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l demo.sh
+[?2004l-rw-r--r-- 1 prashanth prashanth 0 Jul 15 09:44 demo.sh
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chown 755 demo.sh 
+[?2004lchown: changing ownership of 'demo.sh': Operation not permitted (os error 1)
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chown 755 demo.sh [1@s[1@u[1@d[1@o[1@ 
+[?2004l[sudo: authenticate] Password: ******      
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l a[K[Kh demo.sh 
+[?2004l-rw-r--r-- 1 755 prashanth 0 Jul 15 09:44 demo.sh
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -lh demo.sh [8@sudo chown 755[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pls -l demo.shtouch[C[C[C[C[C[C[C[Cls[Kcd Linux-Labs-05/ls[K -l /usr/bin/passwd[4Petc/shadow[10Phistoryscript Lab-05-Terminal-Sessionhistory[Kls -l /etc/shadowusr/bin/passwd[Kcd Linux-Labs-05/ls[Ktouch demo.shls -l[C[C[C[C[C[C[C[Cchown 755 demo.sh [5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kch[K[Ksudo chown prashanth [K:prashanth demo.sh 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ sudo chown prashanth:prashanth demo.sh [A]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ [23Pls -lh demo.sh 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@sudo chown 755[C[C[C[C[C[C[C[C[C[8Pls -lh[C[C[C[C[C[C[C[C[C
+[?2004l-rw-r--r-- 1 prashanth prashanth 0 Jul 15 09:44 demo.sh
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod [1@s[1@u[1@d[1@o[1@ [1P[1P[1P[1P[1P[C[C[C[C[C[C 7 5 5 [C d e mo.sh 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -lh demo.sh 
+[?2004l-rwxr-xr-x 1 prashanth prashanth 0 Jul 15 09:44 [0m[01;32mdemo.sh[0m
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod u+s demo.sh 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod u+s demo.sh [3Pls -lh[C[C[C[C[C[C[C[C[C
+[?2004l-rwsr-xr-x 1 prashanth prashanth 0 Jul 15 09:44 [0m[37;41mdemo.sh[0m
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod 755 demo.sh 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod 755 demo.sh [3Pls -lh[C[C[C[C[C[C[C[C[C
+[?2004l-rwxr-xr-x 1 prashanth prashanth 0 Jul 15 09:44 [0m[01;32mdemo.sh[0m
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ [K]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ exit
+[?2004lexit
+
+Script done on 2026-07-15 10:22:48+05:30 [COMMAND_EXIT_CODE="0"]

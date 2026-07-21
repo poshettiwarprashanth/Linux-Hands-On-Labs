@@ -1,0 +1,309 @@
+Script started on 2026-07-13 18:13:34+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="76" LINES="41"]
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ pwd
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ mkidr[K[K[Kdir Linux-Labs-05
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls
+[?2004lLab-05-Terminal-Session  [0m[01;34mLinux-Labs-05[0m
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd Linux-Labs-05/
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ toch[K[Kuch paswo[K[Ksword.txt notes.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ touch Script/install.sh
+[?2004ltouch: cannot touch 'Script/install.sh': No such file or directory
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ touch Script/install.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir Script
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ mkdir Scripttouch Script/install.sh
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls 
+[?2004l[0m[01;34mScript[0m  notes.txt  password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l
+[?2004ltotal 4
+drwxr-xr-x 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 18:15 notes.txt
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ who am [K[K[K[K[Koami
+[?2004lprashanth
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ group
+[?2004lCommand 'group' not found, did you mean:
+  command 'groups' from deb coreutils-from-gnu (0.0.0~ubuntu25)
+  command 'groups' from deb coreutils-from-uutils (0.0.0~ubuntu25)
+  command 'groups' from deb coreutils-from-busybox (0.0.0~ubuntu25)
+  command 'groups' from deb coreutils-from-toybox (0.0.0~ubuntu25)
+Try: sudo apt install <deb name>
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ groups
+[?2004lprashanth adm cdrom sudo dip plugdev users
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ #Changing file prmissions[K[K[K[K[K[K[K[K[K[Kpermissions
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ch,mo[K[K[Kmod u-w notes.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l
+[?2004ltotal 4
+drwxr-xr-x 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-r--r--r-- 1 prashanth prashanth    0 Jul 13 18:15 notes.txt
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod u+x password.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l
+[?2004ltotal 4
+drwxr-xr-x 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-r--r--r-- 1 prashanth prashanth    0 Jul 13 18:15 notes.txt
+-rwxr--r-- 1 prashanth prashanth    0 Jul 13 18:15 [01;32mpassword.txt[0m
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod g=[K+w notes.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l
+[?2004ltotal 4
+drwxr-xr-x 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-r--rw-r-- 1 prashanth prashanth    0 Jul 13 18:15 notes.txt
+-rwxr--r-- 1 prashanth prashanth    0 Jul 13 18:15 [01;32mpassword.txt[0m
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod -[Ko+w passwords[K.txt 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod o+w password.txt ls -l[K
+[?2004ltotal 4
+drwxr-xr-x 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-r--rw-r-- 1 prashanth prashanth    0 Jul 13 18:15 notes.txt
+-rwxr--rw- 1 prashanth prashanth    0 Jul 13 18:15 [01;32mpassword.txt[0m
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod a+x notes.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod a+x notes.txtls -l[K
+[?2004ltotal 4
+drwxr-xr-x 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-r-xrwxr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rwxr--rw- 1 prashanth prashanth    0 Jul 13 18:15 [01;32mpassword.txt[0m
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ #Numeric Permissions
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod 2[K755 notes.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ la [K[Ks -l
+[?2004ltotal 4
+drwxr-xr-x 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rwxr-xr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rwxr--rw- 1 prashanth prashanth    0 Jul 13 18:15 [01;32mpassword.txt[0m
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod 600 Script/p[K[K[K[K[K[K[K[Kpassword.txt 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l
+[?2004ltotal 4
+drwxr-xr-x 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rwxr-xr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 prashanth prashanth    0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod 7-[K00 Script/
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l
+[?2004ltotal 4
+drwx------ 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rwxr-xr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 prashanth prashanth    0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -ld
+[?2004ldrwxr-xr-x 3 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34m.[0m
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -ld[Kchmod 700 Script/[K
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chmod 700 Script[10Pls -ld
+[?2004ldrwxr-xr-x 3 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34m.[0m
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -ld[K
+[?2004ltotal 4
+drwx------ 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rwxr-xr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 prashanth prashanth    0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -ldchmod 700 Script[10Pls -ld script
+[?2004lls: cannot access 'script': No such file or directory
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -ld script[1P[1@S
+[?2004ldrwx------ 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ id
+[?2004luid=1000(prashanth) gid=1000(prashanth) groups=1000(prashanth),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l
+[?2004ltotal 4
+drwx------ 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rwxr-xr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 prashanth prashanth    0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ cat /etc/passwd | gfre[K[K[Krep -E "pramod|hanm anthrao|mahananda"
+[?2004l[01;31m[Kpramod[m[K:x:1001:1001:,,,:/home/[01;31m[Kpramod[m[K:/bin/bash
+[01;31m[Kmahananda[m[K:x:1002:1002:,,,:/home/[01;31m[Kmahananda[m[K:/bin/bash
+[01;31m[Khanmanthrao[m[K:x:1003:1003:,,,:/home/[01;31m[Khanmanthrao[m[K:/bin/bash
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ sudo chown pramod notes.txt
+[?2004l[sudo: authenticate] Password: ******      
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l
+[?2004ltotal 4
+drwx------ 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rwxr-xr-x 1 pramod    prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 prashanth prashanth    0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chown pramod:pramod notes.txt 
+[?2004lchown: changing ownership of 'notes.txt': Operation not permitted (os error 1)
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chown pramod:pramod notes.txt [Kchown pramod:pramod notes.txt [1@s[1@u[1@d[1@o[1@ 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l
+[?2004ltotal 4
+drwx------ 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rwxr-xr-x 1 pramod    pramod       0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 prashanth prashanth    0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ sudo chown prashanth:prashanth notes.txt 
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ sudo chown prashanth:prashanth notes.txt [A]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004ltotal 4
+drwx------ 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rwxr-xr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 prashanth prashanth    0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ sudo chown pramod Scrit[K[Kipt
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ sudo chown pramod Scriptls -l[K
+[?2004ltotal 4
+drwx------ 2 pramod    prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rwxr-xr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 prashanth prashanth    0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -lsudo chown pramod Scriptls -l[K[K[K[K[K[Kcd Script/
+[?2004lbash: cd: Script/: Permission denied
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ sudo chown prashanth:prashanth Script/ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -[K[K[K[Kcg [K[Kd Script/
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05/Script[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05/Script[00m$ cd -
+[?2004l/home/prashanth/Linux-Labs-05
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ pwd
+[?2004l/home/prashanth/Linux-Labs-05
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l
+[?2004ltotal 4
+drwx------ 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rwxr-xr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 prashanth prashanth    0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chwom[K[Kon -R[K[K[K[K[K[Kown -R pramod:prmoad [K[K[K[Kamod passwo`[Krd.txt 
+[?2004lchown: invalid group: 'pramod:prmamod'
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chown -R pramod:prmamod password.txt [1P
+[?2004lchown: changing ownership of 'password.txt': Operation not permitted (os error 1)
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chown -R pramod:pramod password.txt [1@suchown -R pramod:pramod password.txt  [A]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ [C[Cdchown -R pramod:pramod password.txt [A]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ [C[C[Cochown -R pramod:pramod password.txt [A]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ [C[C[C[C chown -R pramod:pramod password.txt [A]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ [C[C[C[C[C
+
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l
+[?2004ltotal 4
+drwx------ 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rwxr-xr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 pramod    pramod       0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ chgrp [1@s[1@u[1@d[1@o[1@ [C[C[C[C[C[Cpramod notes.txt 
+[?2004l[sudo: authenticate] Password: ******      
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ sudo chgrp pramod notes.txt ls -l[K
+[?2004ltotal 4
+drwx------ 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rwxr-xr-x 1 prashanth pramod       0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 pramod    pramod       0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -lsudo chgrp pramod notes.txt [C[C[1P[1P[1P[1P[1P[1@r[1@a[1@s[1@h[1@a[1@n[1@t[1@h
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ sudo chgrp prashanth notes.txt ls -l[Ksudo chgrp prashanth notes.txt ls -l[K
+[?2004ltotal 4
+drwx------ 2 prashanth prashanth 4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rwxr-xr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 pramod    pramod       0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ sudo chgrp -R pramod Script/[K
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ sudo chgrp -R pramod Scriptls -l[K
+[?2004ltotal 4
+drwx------ 2 prashanth pramod    4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rwxr-xr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 pramod    pramod       0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -ld Script
+[?2004ldrwx------ 2 prashanth pramod 4096 Jul 13 18:15 [0m[01;34mScript[0m
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ groups
+[?2004lprashanth adm cdrom sudo dip plugdev users
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ cat etc/groups[K
+[?2004lcat: etc/group: No such file or directory
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ cat etc/group[C[C[1@/[C[C[C[C[C[C[C[C[C
+[?2004lroot:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,prashanth
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:prashanth
+floppy:x:25:
+tape:x:26:
+sudo:x:27:prashanth
+audio:x:29:
+dip:x:30:prashanth
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:prashanth
+staff:x:50:
+games:x:60:
+users:x:100:prashanth,pramod,mahananda,hanmanthrao
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:997:
+dhcpcd:x:996:
+messagebus:x:995:
+syslog:x:101:
+input:x:994:
+sgx:x:993:
+clock:x:992:
+kvm:x:991:
+render:x:990:
+systemd-resolve:x:989:
+_chrony:x:988:
+_ssh:x:102:
+landscape:x:103:
+polkitd:x:987:
+admin:x:104:
+netdev:x:105:
+prashanth:x:1000:
+pramod:x:1001:
+mahananda:x:1002:
+hanmanthrao:x:1003:
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ groups
+[?2004lprashanth adm cdrom sudo dip plugdev users
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ sudo [K[K[K[K[Kgrep pramod /etc/group
+[?2004lusers:x:100:prashanth,[01;31m[Kpramod[m[K,mahananda,hanmanthrao
+[01;31m[Kpramod[m[K:x:1001:
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ pra[K[K[Kid
+[?2004luid=1000(prashanth) gid=1000(prashanth) groups=1000(prashanth),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ unmask
+[?2004lCommand 'unmask' not found, did you mean:
+  command 'unmass' from deb unmass (0.9-8build1)
+Try: sudo apt install <deb name>
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ sudo unmask
+[?2004lsudo: 'unmask': command not found
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ sudo unmask[5P[C[C[C[C[C[C[1P
+[?2004l0022
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ exit[K[K[K[K[K]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ tp[Kouch prashan[K[K[K[K[K[K[Ktxt[K[K[Kfile{}1}.}.}5}[C.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l
+[?2004ltotal 4
+drwx------ 2 prashanth pramod    4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file1.txt
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file2.txt
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file3.txt
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file4.txt
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file5.txt
+-rwxr-xr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 pramod    pramod       0 Jul 13 18:15 password.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ umask 077
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ touch test{}1}.}.}5}[C.txt
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l
+[?2004ltotal 4
+drwx------ 2 prashanth pramod    4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file1.txt
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file2.txt
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file3.txt
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file4.txt
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file5.txt
+-rwxr-xr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 pramod    pramod       0 Jul 13 18:15 password.txt
+-rw------- 1 prashanth prashanth    0 Jul 13 22:16 test1.txt
+-rw------- 1 prashanth prashanth    0 Jul 13 22:16 test2.txt
+-rw------- 1 prashanth prashanth    0 Jul 13 22:16 test3.txt
+-rw------- 1 prashanth prashanth    0 Jul 13 22:16 test4.txt
+-rw------- 1 prashanth prashanth    0 Jul 13 22:16 test5.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ums[Kasl[K[Ksk 022
+[?2004l[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ umaks[K[Ksk
+[?2004l0022
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ ls -l
+[?2004ltotal 4
+drwx------ 2 prashanth pramod    4096 Jul 13 18:15 [0m[01;34mScript[0m
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file1.txt
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file2.txt
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file3.txt
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file4.txt
+-rw-r--r-- 1 prashanth prashanth    0 Jul 13 22:12 file5.txt
+-rwxr-xr-x 1 prashanth prashanth    0 Jul 13 18:15 [01;32mnotes.txt[0m
+-rw------- 1 pramod    pramod       0 Jul 13 18:15 password.txt
+-rw------- 1 prashanth prashanth    0 Jul 13 22:16 test1.txt
+-rw------- 1 prashanth prashanth    0 Jul 13 22:16 test2.txt
+-rw------- 1 prashanth prashanth    0 Jul 13 22:16 test3.txt
+-rw------- 1 prashanth prashanth    0 Jul 13 22:16 test4.txt
+-rw------- 1 prashanth prashanth    0 Jul 13 22:16 test5.txt
+[?2004h]0;prashanth@linux-labs: ~/Linux-Labs-05[01;32mprashanth@linux-labs[00m:[01;34m~/Linux-Labs-05[00m$ exit
+[?2004lexit
+
+Script done on 2026-07-13 22:23:46+05:30 [COMMAND_EXIT_CODE="0"]
