@@ -1,0 +1,449 @@
+Script started on 2026-07-15 17:23:27+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="76" LINES="41"]
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ history -c
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ pwd
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd Lin[K[K[K[K[K[Ksudo etc.[K/passwd
+[?2004l[sudo: authenticate] Password: ******      
+sudo: 'etc/passwd': command not found
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo etc/passwd[C[C[C[C[C[C[C[1@/
+[?2004lsudo: cannot execute '/etc/passwd': Permission denied (os error 13)
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo /etc/passwd[C
+[?2004lsudo: cannot execute '/etc/passwd': Permission denied (os error 13)
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo /etc/passwd[C[1@c[1@a[1@t[1@ 
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+dhcpcd:x:996:996:DHCP Client Daemon:/usr/lib/dhcpcd:/bin/false
+messagebus:x:995:995:System Message Bus:/nonexistent:/usr/sbin/nologin
+syslog:x:100:101::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:989:989:systemd Resolver:/:/usr/sbin/nologin
+_chrony:x:988:988:Chrony Daemon:/var/lib/chrony:/usr/sbin/nologin
+landscape:x:101:103::/var/lib/landscape:/usr/sbin/nologin
+polkitd:x:987:987:User for polkitd:/:/usr/sbin/nologin
+prashanth:x:1000:1000::/home/prashanth:/bin/bash
+pramod:x:1001:1001:,,,:/home/pramod:/bin/bash
+mahananda:x:1002:1002:,,,:/home/mahananda:/bin/bash
+hanmanthrao:x:1003:1003:,,,:/home/hanmanthrao:/bin/bash
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo cat /etc/groups[K
+[?2004lroot:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,prashanth
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:prashanth
+floppy:x:25:
+tape:x:26:
+sudo:x:27:prashanth
+audio:x:29:
+dip:x:30:prashanth
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:prashanth
+staff:x:50:
+games:x:60:
+users:x:100:prashanth,pramod,mahananda,hanmanthrao
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:997:
+dhcpcd:x:996:
+messagebus:x:995:
+syslog:x:101:
+input:x:994:
+sgx:x:993:
+clock:x:992:
+kvm:x:991:
+render:x:990:
+systemd-resolve:x:989:
+_chrony:x:988:
+_ssh:x:102:
+landscape:x:103:
+polkitd:x:987:
+admin:x:104:
+netdev:x:105:
+prashanth:x:1000:
+pramod:x:1001:
+mahananda:x:1002:
+hanmanthrao:x:1003:
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo cat /etc/shadow
+[?2004lroot:*:20563:0:99999:7:::
+daemon:*:20563:0:99999:7:::
+bin:*:20563:0:99999:7:::
+sys:*:20563:0:99999:7:::
+sync:*:20563:0:99999:7:::
+games:*:20563:0:99999:7:::
+man:*:20563:0:99999:7:::
+lp:*:20563:0:99999:7:::
+mail:*:20563:0:99999:7:::
+news:*:20563:0:99999:7:::
+uucp:*:20563:0:99999:7:::
+proxy:*:20563:0:99999:7:::
+www-data:*:20563:0:99999:7:::
+backup:*:20563:0:99999:7:::
+list:*:20563:0:99999:7:::
+irc:*:20563:0:99999:7:::
+_apt:*:20563:0:99999:7:::
+nobody:*:20563:0:99999:7:::
+systemd-network:!*:20563:::::1:
+dhcpcd:!*:20563:::::1:
+messagebus:!*:20563::::::
+syslog:!:20563::::::
+systemd-resolve:!*:20563:::::1:
+_chrony:!*:20563::::::
+landscape:!:20563::::::
+polkitd:!*:20563::::::
+prashanth:$y$j9T$Rp6s8uDBTkZoee3X/..8R/$mOJxMHAmalBnUBMhUsrW.GLgBUdY3K0UczBo2WlekU2:20638:0:99999:7:::
+pramod:$y$j9T$WOJRXQIhAJmnSszUBBhMY/$GeAmEFOPjZyQwhjy/e1dgjLvIQxRaef.Ad8zmCtZe7A:20638:0:99999:7:::
+mahananda:$y$j9T$cAVNbDFw0m1qk7B/52BBb/$GQ4SfpxfCZ3OQts9wY4ClCDmBYhrLOSgN4pXBqwyat7:20638:0:99999:7:::
+hanmanthrao:$y$j9T$ohkvI5czIKENsfzcGxlsS1$FkbDq7DEJitjU6L8tpDMj2SMDRH5JS/VxRq1J6Ed8u5:20638:0:99999:7:::
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ #Part 1
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ whoami
+[?2004lprashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ id
+[?2004luid=1000(prashanth) gid=1000(prashanth) groups=1000(prashanth),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ git[Kd
+[?2004lCommand 'gid' not found, but can be installed with:
+sudo apt install id-utils
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ groups
+[?2004lprashanth adm cdrom sudo dip plugdev users
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ users
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo users
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ who
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ which who
+[?2004l/usr/bin/who
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ which users
+[?2004l/usr/bin/users
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ logname
+[?2004llogname: no login name
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ suod [K[K[K[K[Kcat etc [K[1@/[C[C[C/passwd[1@s[1@u[1@d[1@o[1@ 
+[?2004l[sudo: authenticate] Password: ******      
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+dhcpcd:x:996:996:DHCP Client Daemon:/usr/lib/dhcpcd:/bin/false
+messagebus:x:995:995:System Message Bus:/nonexistent:/usr/sbin/nologin
+syslog:x:100:101::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:989:989:systemd Resolver:/:/usr/sbin/nologin
+_chrony:x:988:988:Chrony Daemon:/var/lib/chrony:/usr/sbin/nologin
+landscape:x:101:103::/var/lib/landscape:/usr/sbin/nologin
+polkitd:x:987:987:User for polkitd:/:/usr/sbin/nologin
+prashanth:x:1000:1000::/home/prashanth:/bin/bash
+pramod:x:1001:1001:,,,:/home/pramod:/bin/bash
+mahananda:x:1002:1002:,,,:/home/mahananda:/bin/bash
+hanmanthrao:x:1003:1003:,,,:/home/hanmanthrao:/bin/bash
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo cat etc/shadow
+[?2004lcat: etc/shadow: No such file or directory
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo cat etc/shadow[C[C[1@/
+[?2004lroot:*:20563:0:99999:7:::
+daemon:*:20563:0:99999:7:::
+bin:*:20563:0:99999:7:::
+sys:*:20563:0:99999:7:::
+sync:*:20563:0:99999:7:::
+games:*:20563:0:99999:7:::
+man:*:20563:0:99999:7:::
+lp:*:20563:0:99999:7:::
+mail:*:20563:0:99999:7:::
+news:*:20563:0:99999:7:::
+uucp:*:20563:0:99999:7:::
+proxy:*:20563:0:99999:7:::
+www-data:*:20563:0:99999:7:::
+backup:*:20563:0:99999:7:::
+list:*:20563:0:99999:7:::
+irc:*:20563:0:99999:7:::
+_apt:*:20563:0:99999:7:::
+nobody:*:20563:0:99999:7:::
+systemd-network:!*:20563:::::1:
+dhcpcd:!*:20563:::::1:
+messagebus:!*:20563::::::
+syslog:!:20563::::::
+systemd-resolve:!*:20563:::::1:
+_chrony:!*:20563::::::
+landscape:!:20563::::::
+polkitd:!*:20563::::::
+prashanth:$y$j9T$Rp6s8uDBTkZoee3X/..8R/$mOJxMHAmalBnUBMhUsrW.GLgBUdY3K0UczBo2WlekU2:20638:0:99999:7:::
+pramod:$y$j9T$WOJRXQIhAJmnSszUBBhMY/$GeAmEFOPjZyQwhjy/e1dgjLvIQxRaef.Ad8zmCtZe7A:20638:0:99999:7:::
+mahananda:$y$j9T$cAVNbDFw0m1qk7B/52BBb/$GQ4SfpxfCZ3OQts9wY4ClCDmBYhrLOSgN4pXBqwyat7:20638:0:99999:7:::
+hanmanthrao:$y$j9T$ohkvI5czIKENsfzcGxlsS1$FkbDq7DEJitjU6L8tpDMj2SMDRH5JS/VxRq1J6Ed8u5:20638:0:99999:7:::
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo [K[K[K[K[Kgroups
+[?2004lprashanth adm cdrom sudo dip plugdev users
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cat e[K/[K[K[K[K[Ksudo cat /etc/group
+[?2004lroot:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,prashanth
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:prashanth
+floppy:x:25:
+tape:x:26:
+sudo:x:27:prashanth
+audio:x:29:
+dip:x:30:prashanth
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:prashanth
+staff:x:50:
+games:x:60:
+users:x:100:prashanth,pramod,mahananda,hanmanthrao
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:997:
+dhcpcd:x:996:
+messagebus:x:995:
+syslog:x:101:
+input:x:994:
+sgx:x:993:
+clock:x:992:
+kvm:x:991:
+render:x:990:
+systemd-resolve:x:989:
+_chrony:x:988:
+_ssh:x:102:
+landscape:x:103:
+polkitd:x:987:
+admin:x:104:
+netdev:x:105:
+prashanth:x:1000:
+pramod:x:1001:
+mahananda:x:1002:
+hanmanthrao:x:1003:
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo cat /etc/group[C[C[C[1P[1P[1P[1P[1P
+[?2004lroot:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,prashanth
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:prashanth
+floppy:x:25:
+tape:x:26:
+sudo:x:27:prashanth
+audio:x:29:
+dip:x:30:prashanth
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:prashanth
+staff:x:50:
+games:x:60:
+users:x:100:prashanth,pramod,mahananda,hanmanthrao
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:997:
+dhcpcd:x:996:
+messagebus:x:995:
+syslog:x:101:
+input:x:994:
+sgx:x:993:
+clock:x:992:
+kvm:x:991:
+render:x:990:
+systemd-resolve:x:989:
+_chrony:x:988:
+_ssh:x:102:
+landscape:x:103:
+polkitd:x:987:
+admin:x:104:
+netdev:x:105:
+prashanth:x:1000:
+pramod:x:1001:
+mahananda:x:1002:
+hanmanthrao:x:1003:
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cat /etc/group[C
+[?2004lroot:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,prashanth
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:prashanth
+floppy:x:25:
+tape:x:26:
+sudo:x:27:prashanth
+audio:x:29:
+dip:x:30:prashanth
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:prashanth
+staff:x:50:
+games:x:60:
+users:x:100:prashanth,pramod,mahananda,hanmanthrao
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:997:
+dhcpcd:x:996:
+messagebus:x:995:
+syslog:x:101:
+input:x:994:
+sgx:x:993:
+clock:x:992:
+kvm:x:991:
+render:x:990:
+systemd-resolve:x:989:
+_chrony:x:988:
+_ssh:x:102:
+landscape:x:103:
+polkitd:x:987:
+admin:x:104:
+netdev:x:105:
+prashanth:x:1000:
+pramod:x:1001:
+mahananda:x:1002:
+hanmanthrao:x:1003:
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ /l[Khome[1@l[1@s[1@ 
+[?2004l[0m[01;34mhanmanthrao[0m  [01;34mmahananda[0m  [01;34mpramod[0m  [01;34mprashanth[0m
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls -l [K
+[?2004ltotal 16
+-rw-r--r-- 1 prashanth prashanth 12288 Jul 15 18:47 Lab-06-Terminal-Session.txt[K
+drwxr-xr-x 3 prashanth prashanth  4096 Jul 15 09:44 [0m[01;34mLinux-Labs-05[0m
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ipd[K[Kd
+[?2004luid=1000(prashanth) gid=1000(prashanth) groups=1000(prashanth),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ h[Kgid
+[?2004lCommand 'gid' not found, but can be installed with:
+sudo apt install id-utils
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ cd ^[[2~^[[2~c[K[K[K[K[K[K[K[K[K[K[K[Kcat /etc/passwd
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+dhcpcd:x:996:996:DHCP Client Daemon:/usr/lib/dhcpcd:/bin/false
+messagebus:x:995:995:System Message Bus:/nonexistent:/usr/sbin/nologin
+syslog:x:100:101::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:989:989:systemd Resolver:/:/usr/sbin/nologin
+_chrony:x:988:988:Chrony Daemon:/var/lib/chrony:/usr/sbin/nologin
+landscape:x:101:103::/var/lib/landscape:/usr/sbin/nologin
+polkitd:x:987:987:User for polkitd:/:/usr/sbin/nologin
+prashanth:x:1000:1000::/home/prashanth:/bin/bash
+pramod:x:1001:1001:,,,:/home/pramod:/bin/bash
+mahananda:x:1002:1002:,,,:/home/mahananda:/bin/bash
+hanmanthrao:x:1003:1003:,,,:/home/hanmanthrao:/bin/bash
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ end[K[K[Kexit
+[?2004lexit
+
+Script done on 2026-07-15 19:08:12+05:30 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,273 @@
+Script started on 2026-07-16 10:37:01+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ pwd
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo su 
+[?2004l[sudo: authenticate] Password: ****    
+sudo: Authentication failed, try again.
+[sudo: authenticate] Password: ******      
+]3008;start=43ba1f088d2a462085c8eb41d3e570e8;user=root;hostname=linux-labs;machineid=74c828d7137c4037871baf30455f7d5f;bootid=5ebfc673ddd44c8c8604dd7061474b3d;pid=612;pidfdid=819;comm=su;targetuser=root;sessionid=c3;type=session\[?2004h]0;root@linux-labs: /home/prashanthroot@linux-labs:/home/prashanth# add user[K[K[K[K[Kuser Alic[K[K[K[Kak[Klice
+[?2004lNew password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for alice
+Enter the new value, or press ENTER for the default
+	Full Name []: Alice Alice
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+[?2004h]0;root@linux-labs: /home/prashanthroot@linux-labs:/home/prashanth# id
+[?2004luid=0(root) gid=0(root) groups=0(root)
+[?2004h]0;root@linux-labs: /home/prashanthroot@linux-labs:/home/prashanth# id Alice
+[?2004lid: 'Alice': no such user
+[?2004h]0;root@linux-labs: /home/prashanthroot@linux-labs:/home/prashanth# id Alice[1P[1@a
+[?2004luid=1004(alice) gid=1004(alice) groups=1004(alice),100(users)
+[?2004h]0;root@linux-labs: /home/prashanthroot@linux-labs:/home/prashanth# users
+[?2004l[?2004h]0;root@linux-labs: /home/prashanthroot@linux-labs:/home/prashanth# groups
+[?2004lroot
+[?2004h]0;root@linux-labs: /home/prashanthroot@linux-labs:/home/prashanth# groups[K
+[?2004lCommand 'group' not found, did you mean:
+  command 'groups' from deb coreutils-from-gnu (0.0.0~ubuntu25)
+  command 'groups' from deb coreutils-from-uutils (0.0.0~ubuntu25)
+  command 'groups' from deb coreutils-from-busybox (0.0.0~ubuntu25)
+  command 'groups' from deb coreutils-from-toybox (0.0.0~ubuntu25)
+Try: apt install <deb name>
+[?2004h]0;root@linux-labs: /home/prashanthroot@linux-labs:/home/prashanth# etc/passws[Kd
+[?2004lbash: etc/passwd: No such file or directory
+[?2004h]0;root@linux-labs: /home/prashanthroot@linux-labs:/home/prashanth# etc/passwd[5Pgroups[1Puser[Cid aliceA[C[C[C[C[Kadduser aliceid[K Alicea[C[C[C[C[3Pusers[1@group[C[Ks[1Puser[Cid aliceA[C[C[C[C[Kadduser alice[6Plognam[C[1Pwhoami[1Pclear[K[K[K[K[K/etc/passwd
+[?2004lbash: /etc/passwd: Permission denied
+[?2004h]0;root@linux-labs: /home/prashanthroot@linux-labs:/home/prashanth# sudo /etc/passwd
+[?2004lsudo: cannot execute '/etc/passwd': Permission denied (os error 13)
+[?2004h]0;root@linux-labs: /home/prashanthroot@linux-labs:/home/prashanth# exit
+[?2004lexit
+]3008;end=43ba1f088d2a462085c8eb41d3e570e8\[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo /ets/passwd
+[?2004lsudo: '/ets/passwd': command not found
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo /ets/passwd[C[1P[1@c
+[?2004lsudo: cannot execute '/etc/passwd': Permission denied (os error 13)
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo /etc/passwd[K[K[K[K[K[Kshadow
+[?2004lsudo: cannot execute '/etc/shadow': Permission denied (os error 13)
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ pwe[Kd
+[?2004l/home/prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls
+[?2004lLab-03-Termianl-Session-3.txt  Lab-06-Terminal-Session.txt  [0m[01;34mLinux-Labs-05[0m
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo /[Kcat etc/passwd
+[?2004lcat: etc/passwd: No such file or directory
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo cat etc/passwd[1@/
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+dhcpcd:x:996:996:DHCP Client Daemon:/usr/lib/dhcpcd:/bin/false
+messagebus:x:995:995:System Message Bus:/nonexistent:/usr/sbin/nologin
+syslog:x:100:101::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:989:989:systemd Resolver:/:/usr/sbin/nologin
+_chrony:x:988:988:Chrony Daemon:/var/lib/chrony:/usr/sbin/nologin
+landscape:x:101:103::/var/lib/landscape:/usr/sbin/nologin
+polkitd:x:987:987:User for polkitd:/:/usr/sbin/nologin
+prashanth:x:1000:1000::/home/prashanth:/bin/bash
+pramod:x:1001:1001:,,,:/home/pramod:/bin/bash
+mahananda:x:1002:1002:,,,:/home/mahananda:/bin/bash
+hanmanthrao:x:1003:1003:,,,:/home/hanmanthrao:/bin/bash
+alice:x:1004:1004:Alice Alice,,,:/home/alice:/bin/bash
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ id alice[K[K[K[K[K[K[K[Kid alice[1@s[1@u[1@d[1@o[1@ 
+[?2004luid=1004(alice) gid=1004(alice) groups=1004(alice),100(users)
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo cat/[K /etc/groups
+[?2004lcat: /etc/groups: No such file or directory
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo cat /etc/groups[K
+[?2004lroot:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,prashanth
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:prashanth
+floppy:x:25:
+tape:x:26:
+sudo:x:27:prashanth
+audio:x:29:
+dip:x:30:prashanth
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:prashanth
+staff:x:50:
+games:x:60:
+users:x:100:prashanth,pramod,mahananda,hanmanthrao,alice
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:997:
+dhcpcd:x:996:
+messagebus:x:995:
+syslog:x:101:
+input:x:994:
+sgx:x:993:
+clock:x:992:
+kvm:x:991:
+render:x:990:
+systemd-resolve:x:989:
+_chrony:x:988:
+_ssh:x:102:
+landscape:x:103:
+polkitd:x:987:
+admin:x:104:
+netdev:x:105:
+prashanth:x:1000:
+pramod:x:1001:
+mahananda:x:1002:
+hanmanthrao:x:1003:
+alice:x:1004:
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo cat /etc/group[Ksudo cat /etc/groups[7Pid alicecat /etc/groups[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgroups
+[?2004lprashanth adm cdrom sudo dip plugdev users
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ /ect[K[K[K[Ksudo etc/[K[K[K[K/home/alice
+[?2004lsudo: cannot execute '/home/alice': Permission denied (os error 13)
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo /home/alice[C[C[1@ [1@l[1@s
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo useradd john
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ id john
+[?2004luid=1005(john) gid=1005(john) groups=1005(john)
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ [K]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo ls e[K/etc/home
+[?2004lls: cannot access '/etc/home': No such file or directory
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo ls /etc/home[1P[1P[1P[1P
+[?2004lalice  hanmanthrao  mahananda  pramod  prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo cat /etc/[C[C[C[C[C[C[C[C[C[C[Cshadow
+[?2004lroot:*:20563:0:99999:7:::
+daemon:*:20563:0:99999:7:::
+bin:*:20563:0:99999:7:::
+sys:*:20563:0:99999:7:::
+sync:*:20563:0:99999:7:::
+games:*:20563:0:99999:7:::
+man:*:20563:0:99999:7:::
+lp:*:20563:0:99999:7:::
+mail:*:20563:0:99999:7:::
+news:*:20563:0:99999:7:::
+uucp:*:20563:0:99999:7:::
+proxy:*:20563:0:99999:7:::
+www-data:*:20563:0:99999:7:::
+backup:*:20563:0:99999:7:::
+list:*:20563:0:99999:7:::
+irc:*:20563:0:99999:7:::
+_apt:*:20563:0:99999:7:::
+nobody:*:20563:0:99999:7:::
+systemd-network:!*:20563:::::1:
+dhcpcd:!*:20563:::::1:
+messagebus:!*:20563::::::
+syslog:!:20563::::::
+systemd-resolve:!*:20563:::::1:
+_chrony:!*:20563::::::
+landscape:!:20563::::::
+polkitd:!*:20563::::::
+prashanth:$y$j9T$Rp6s8uDBTkZoee3X/..8R/$mOJxMHAmalBnUBMhUsrW.GLgBUdY3K0UczBo2WlekU2:20638:0:99999:7:::
+pramod:$y$j9T$WOJRXQIhAJmnSszUBBhMY/$GeAmEFOPjZyQwhjy/e1dgjLvIQxRaef.Ad8zmCtZe7A:20638:0:99999:7:::
+mahananda:$y$j9T$cAVNbDFw0m1qk7B/52BBb/$GQ4SfpxfCZ3OQts9wY4ClCDmBYhrLOSgN4pXBqwyat7:20638:0:99999:7:::
+hanmanthrao:$y$j9T$ohkvI5czIKENsfzcGxlsS1$FkbDq7DEJitjU6L8tpDMj2SMDRH5JS/VxRq1J6Ed8u5:20638:0:99999:7:::
+alice:$y$j9T$QK9S27C4GO3nai6rKfTai.$2H3QnoKamMRVkCH2rPdfy3iu1xEiliLdTcc2FlUqtbB:20650:0:99999:7:::
+john:!:20650:0:99999:7:::
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls l[K-lah /etc/skel
+[?2004ltotal 20K
+drwxr-xr-x  2 root root 4.0K Apr 20 23:35 [0m[01;34m.[0m
+drwxr-xr-x 89 root root 4.0K Jul 16 10:51 [01;34m..[0m
+-rw-r--r--  1 root root  220 Feb 13 17:46 .bash_logout
+-rw-r--r--  1 root root 3.7K Feb 13 17:46 .bashrc
+-rw-r--r--  1 root root  807 Feb 13 17:46 .profile
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls[K[Ksudo ls /home/alice[1@-[1@l[1@a[1@h[1@ 
+[?2004ltotal 20K
+drwxr-x--- 2 alice alice 4.0K Jul 16 10:37 .
+drwxr-xr-x 7 root  root  4.0K Jul 16 10:37 ..
+-rw-r--r-- 1 alice alice  220 Jul 16 10:37 .bash_logout
+-rw-r--r-- 1 alice alice 3.7K Jul 16 10:37 .bashrc
+-rw-r--r-- 1 alice alice  807 Jul 16 10:37 .profile
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ id [K[K[Ksudo id alice
+[?2004luid=1004(alice) gid=1004(alice) groups=1004(alice),100(users)
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo id-u alice
+[?2004lsudo: 'id-u': command not found
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo id-u alice[1P[1P[1@u[1@-
+[?2004lsudo: 'u-id': command not found
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ id username
+[?2004lid: 'username': no such user
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ id username[K[K[K[K[K[K[K[Kalice
+[?2004luid=1004(alice) gid=1004(alice) groups=1004(alice),100(users)
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ getent passwd alice
+[?2004lalice:x:1004:1004:Alice Alice,,,:/home/alice:/bin/bash
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ grep alic /etc/passwd
+[?2004l[01;31m[Kalic[m[Ke:x:1004:1004:Alice Alice,,,:/home/[01;31m[Kalic[m[Ke:/bin/bash
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ groups
+[?2004lprashanth adm cdrom sudo dip plugdev users
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ groups alice
+[?2004lalice : alice users
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ gru[Koups pramod
+[?2004lpramod : pramod users
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ finger alice
+[?2004lCommand 'finger' not found, but can be installed with:
+sudo apt install finger
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ id alice
+[?2004luid=1004(alice) gid=1004(alice) groups=1004(alice),100(users)
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ ls -ld /bin
+[?2004llrwxrwxrwx 1 root root 7 Apr 20 14:16 [0m[01;36m/bin[0m -> [01;34musr/bin[0m
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ which bash
+[?2004l/usr/bin/bash
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo groupadd develpo[K[Kopers
+[?2004l[sudo: authenticate] Password: ******      
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ grep developers /etc/group
+[?2004l[01;31m[Kdevelopers[m[K:x:1006:
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ gri[Koup[K[Kups
+[?2004lprashanth adm cdrom sudo dip plugdev users
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo groupdel developers
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ grep developers /etc/groups
+[?2004lgrep: /etc/groups: No such file or directory
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ grep developers /etc/groups[K
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo gru[Koupdel alice
+[?2004lgroupdel: cannot remove the primary group of user 'alice'
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ getent group developers
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ sudo groupadd developers
+[?2004l[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ grep developers /etc/group
+[?2004l[01;31m[Kdevelopers[m[K:x:1006:
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ getent developers 
+[?2004lUnknown database: developers
+Try `getent --help' or `getent --usage' for more information.
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ getent developers /etc/group
+[?2004lUnknown database: developers
+Try `getent --help' or `getent --usage' for more information.
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ getent developers /etc/group[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[1@g[1@r[1@o[1@u[1@p[1@ 
+[?2004ldevelopers:x:1006:
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ getent group sudo
+[?2004lsudo:x:27:prashanth
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ gru[Koups
+[?2004lprashanth adm cdrom sudo dip plugdev users
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ groupsgroups alice
+[?2004lgroupsgroups: command not found
+[?2004h]0;prashanth@linux-labs: ~[01;32mprashanth@linux-labs[00m:[01;34m~[00m$ groupsgroups alice[1P[1P
