@@ -1,0 +1,184 @@
+LINUX LAB 08 – SERVICES & PROCESS MANAGEMENT WITH SYSTEMD
+==========================================================
+
+LAB OBJECTIVE
+-------------
+The objective of this lab was to understand systemd and learn how to manage,
+monitor, and investigate Linux services and system logs using systemctl and
+journalctl.
+
+SYSTEMD
+-------
+systemd is the system and service manager used by modern Linux systems.
+It manages services, processes, targets, dependencies, mounts, sockets,
+timers, and other system units.
+
+SYSTEMCTL COMMANDS
+------------------
+
+systemctl
+- Displays a general overview of loaded systemd units.
+
+systemctl --version
+- Displays the installed systemd version.
+
+systemctl status
+- Displays overall systemd system status.
+
+systemctl --failed
+- Displays units that are currently in a failed state.
+
+systemctl list-units --type=service
+- Displays currently loaded service units.
+
+systemctl list-unit-files --type=service
+- Displays installed service unit files and their states.
+
+systemctl is-active <service>
+- Checks whether a service is currently active.
+
+systemctl is-enabled <service>
+- Checks whether a service is configured to start automatically at boot.
+
+systemctl status <service>
+- Displays detailed information about a specific service.
+
+sudo systemctl start <service>
+- Starts a service immediately.
+
+sudo systemctl stop <service>
+- Stops a service immediately.
+
+sudo systemctl restart <service>
+- Restarts a service. It can also start a stopped service.
+
+sudo systemctl try-restart <service>
+- Restarts a service only if it is already running.
+
+sudo systemctl reload <service>
+- Reloads a service's configuration if the service supports reload.
+
+sudo systemctl daemon-reload
+- Tells systemd to re-read its unit file definitions.
+
+SERVICE CONFIGURATION CONCEPTS
+------------------------------
+
+enable
+- Configures a service to start automatically during boot.
+
+disable
+- Prevents a service from automatically starting during boot.
+
+mask
+- Prevents a service from being started.
+
+unmask
+- Removes the mask and allows the service to be started again.
+
+TARGETS AND DEPENDENCIES
+------------------------
+
+systemctl get-default
+- Shows the default systemd target used during boot.
+
+systemctl list-dependencies <unit>
+- Shows dependencies and relationships associated with a unit.
+
+JOURNALCTL COMMANDS
+-------------------
+
+journalctl
+- Displays system journal logs collected by systemd-journald.
+
+journalctl -u <service>
+- Displays logs associated with a specific systemd service.
+
+journalctl -f
+- Follows new journal log entries in real time.
+
+journalctl -u <service> -f
+- Follows new logs for a specific service in real time.
+
+journalctl -b
+- Displays logs from the current boot.
+
+journalctl -b -1
+- Displays logs from the previous boot.
+
+journalctl --list-boots
+- Lists available boot sessions.
+
+journalctl --since "1 hour ago"
+- Displays logs generated since one hour ago.
+
+journalctl --until "1 hour ago"
+- Displays logs up to one hour ago.
+
+journalctl --since "2 hours ago" --until "1 hour ago"
+- Displays logs within a specific time range.
+
+journalctl -p err
+- Displays error-level and more severe journal messages.
+
+CYBERSECURITY RELEVANCE
+-----------------------
+Systemd and service management are important for cybersecurity because
+attackers can abuse services for persistence, while defenders can use service
+status and logs to investigate suspicious activity.
+
+A basic investigation workflow is:
+
+1. Identify services.
+2. Check the service status.
+3. Inspect the service configuration.
+4. Review the service logs.
+5. Filter logs by time.
+6. Filter logs by severity.
+7. Investigate suspicious behavior.
+
+IMPORTANT CONCEPTS
+------------------
+systemd
+- System and service manager.
+
+systemctl
+- Tool used to manage and inspect systemd units.
+
+systemd unit
+- A resource managed by systemd, such as a service, socket, mount, timer,
+  or target.
+
+service
+- A unit that manages a background process or daemon.
+
+target
+- Represents a desired system state and groups related units.
+
+journal
+- Collection of logs managed by systemd-journald.
+
+KEY DIFFERENCES
+---------------
+
+reload
+- Reloads a service's own configuration if supported.
+
+daemon-reload
+- Makes systemd re-read its unit file definitions.
+
+restart
+- Stops and starts a service again.
+
+try-restart
+- Restarts the service only if it is already running.
+
+list-units
+- Shows currently loaded units.
+
+list-unit-files
+- Shows installed unit files.
+
+LAB STATUS
+----------
+Linux Lab 08 – Services & Process Management with systemd: COMPLETED
